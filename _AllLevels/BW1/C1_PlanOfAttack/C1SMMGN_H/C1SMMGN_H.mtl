@@ -1,0 +1,20 @@
+newmtl Node 0_mat0
+map_kd vwfltnk_treads.png
+newmtl Node 0_mat1
+map_kd c1ttdrt.png
+newmtl Node 0_mat2
+map_kd c1sngras.png
+newmtl Node 0_mat3
+map_kd c1smsandbag2.png
+newmtl Node 0_mat4
+map_kd c1smsandbag1.png
+newmtl Node 0_mat5
+map_kd c1smwdfence.png
+newmtl Node 0_mat6
+map_kd c1smbwire1.png
+newmtl Node 4_mat0
+map_kd browning2.png
+newmtl Node 6_mat0
+map_kd browning2.png
+newmtl Node 7_mat0
+map_kd browning2.png

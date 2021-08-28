@@ -1,0 +1,644 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 17
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 1121 spider beam
+Num_Entries 6
+Sorted 0
+Render_Order 0
+Particle_Descriptor 1121_(emitter) beam (copy)
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 1121_(emitter) distort
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 1121_(sprite) charge (copy)
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 1121_(emitter) charge
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 1121_(emitter) beam
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 1121_(emitter) charge
+Time 0
+Transmit_FoR 1
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 1121_(colour range) white to black
+Start_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 0
+Transition_Point 0.000000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 1121_(colour) distort
+Start_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1121_(emitter) beam
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1121_(sprite) charge (copy) (copy)
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1121_(emitter) beam (copy 2)
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1121_(sprite) charge (copy) (copy) (copy)
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1121_(emitter) beam (copy)
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1121_(particle) test
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1121_(emitter) charge
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.100000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1121_(sprite) charge (copy)
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1121_(emitter) distort
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.100000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1121_(sprite) charge
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 1121_(function) beam length
+Param_A NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 1121_(function) fixed random
+Param_A NUMBER_VERSION_2
+****1: 0.800000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 8
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(particle) beam
+Radius NUMBER_VERSION_2
+****1: 20.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.000000
+Life -2
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_beam01.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range NONE
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(particle) test
+Radius NUMBER_VERSION_2
+****1: 4.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life 100
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_white_glow.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1121_(colour range) white to black
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 15
+Particle_Descriptor_Name 1121_(pom pom) blue beam
+pom_pom_len NUMBER_VERSION_2
+****1: 250.000000 NONE
+****2: 1 30.000000 0 1.000000 0 0.000000
+pom_pom_radius NUMBER_VERSION_2
+****1: 3.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+pom_pom_num_particles 70
+pom_pom_axis 1
+pom_pom_life -2
+pom_pom_colour_range 1121_(colour range) white to black
+pom_pom_spawn_pd 1121_(particle) test
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(sprite) charge
+Radius NUMBER_VERSION_2
+****1: 10.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.200000
+Life 50
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 3
+Texture SFX_radial_wake_dist.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1121_(colour) distort
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 2.000000 1121_(function) fixed random
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(sprite) charge (copy)
+Radius NUMBER_VERSION_2
+****1: 10.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.200000
+Life 15
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_white_blob.ace
+Bounce 0
+Fade_Col 1
+Modifier NONE
+Colour_Range 1121_(colour) distort
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(sprite) charge (copy) (copy)
+Radius NUMBER_VERSION_2
+****1: 1.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life 100
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_beam01.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range NONE
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 3
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1121_(sprite) charge (copy) (copy) (copy)
+Radius NUMBER_VERSION_2
+****1: 5.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life 100
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_beam01.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1121_(colour range) white to black
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 3
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************

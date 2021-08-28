@@ -1,0 +1,62 @@
+newmtl Node 0_mat0
+map_kd vxgshp.png
+newmtl Node 0_mat1
+map_kd vxgshp.png
+newmtl Node 0_mat2
+map_kd vxglass.png
+newmtl Node 0_mat3
+map_kd vxglass.png
+newmtl Node 2_mat0
+map_kd vxshare.png
+newmtl Node 2_mat1
+map_kd vxshare.png
+newmtl Node 3_mat0
+map_kd vxshare.png
+newmtl Node 3_mat1
+map_kd vxshare.png
+newmtl Node 7_mat0
+map_kd vxshare.png
+newmtl Node 7_mat1
+map_kd vxshare.png
+newmtl Node 8_mat0
+map_kd vxshare.png
+newmtl Node 8_mat1
+map_kd vxshare.png
+newmtl Node 11_mat0
+map_kd vxgshp.png
+newmtl Node 12_mat0
+map_kd vxgshp.png
+newmtl Node 13_mat0
+map_kd rotorblur2.png
+newmtl Node 17_mat0
+map_kd vxgshp.png
+newmtl Node 18_mat0
+map_kd vxgshp.png
+newmtl Node 19_mat0
+map_kd rotorblur2.png
+newmtl Node 20_mat0
+map_kd vxgshp.png
+newmtl Node 21_mat0
+map_kd vxgshp.png
+newmtl Node 22_mat0
+map_kd rotorblur2.png
+newmtl Node 23_mat0
+map_kd vxgshp.png
+newmtl Node 28_mat0
+map_kd vxgshp.png
+newmtl Node 29_mat0
+map_kd vxgshp.png
+newmtl Node 30_mat0
+map_kd vxgshp.png
+newmtl Node 31_mat0
+map_kd vxgshp.png
+newmtl Node 32_mat0
+map_kd vxgshp.png
+newmtl Node 35_mat0
+map_kd vxgshp.png
+newmtl Node 35_mat1
+map_kd vxgshp.png
+newmtl Node 37_mat0
+map_kd vxgshp.png
+newmtl Node 37_mat1
+map_kd vxgshp.png

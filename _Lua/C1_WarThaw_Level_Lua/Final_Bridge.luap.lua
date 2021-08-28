@@ -1,0 +1,15 @@
+function Final_Bridge(owner)
+  repeat
+    EndFrame()
+  until IsInArea(GetPlayerUnit(), Map_Zone.Trigger14)
+  PhoneMessage(20, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  PhoneMessage(75, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  PhoneMessage(70, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  WaitFor(10)
+  SetHudState(constant.HUD_CONTROLIMAGE_ALL, constant.HUD_ITEM_ON, 540, 380, 0.6)
+  SetHudState(constant.HUD_CONTROLIMAGE_X, constant.HUD_ITEM_FLASH, 7, 540, 380, 0.6)
+  WaitFor(7)
+  SetHudState(constant.HUD_CONTROLIMAGE_ALL, constant.HUD_ITEM_OFF, 540, 380, 0.6)
+  SetHudState(constant.HUD_CONTROLIMAGE_SHOULDERL, constant.HUD_ITEM_OFF, 540, 380, 0.6)
+  EndFrame()
+end

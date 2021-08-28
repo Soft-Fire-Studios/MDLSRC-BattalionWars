@@ -1,0 +1,418 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 20
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 327_(colour range) red
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.020000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.020000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 1 20.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 0
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light1
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 1 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light2
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 2 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light3
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 3 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light4
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 4 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light5
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 5 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light6
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 6 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light7
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 7 m
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 327_(FOR) light8
+Initial 327_(particle) flashing light
+Death NONE
+Mover 327_(mover) light 8 m
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 327_(function) size flash
+Param_A NUMBER_VERSION_2
+****1: -2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 3.141000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 3.141000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 3
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 1 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 8.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 2 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 3 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 8.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 4 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: -5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 5 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: -8.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 6 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: -5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: -5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 7 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: -8.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 327_(mover) light 8 m
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: -0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: -5.832000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 327_(particle) flashing light
+Radius NUMBER_VERSION_2
+****1: 1.000000 327_(function) size flash
+****2: 1 20.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life -2
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_hl_flare.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 327_(colour range) red
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 1
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 327_Helipad lights
+Num_Entries 8
+Sorted 0
+Render_Order 0
+Particle_Descriptor 327_(FOR) light3
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light7
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light5
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light1
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light6
+Time 10
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light8
+Time 10
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light4
+Time 10
+Transmit_FoR 1
+Particle_Descriptor 327_(FOR) light2
+Time 10
+Transmit_FoR 1
+*****************************************************************

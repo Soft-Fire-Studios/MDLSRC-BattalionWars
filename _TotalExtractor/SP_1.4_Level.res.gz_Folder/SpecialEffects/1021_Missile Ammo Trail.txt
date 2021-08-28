@@ -1,0 +1,360 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 10
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 1021_(colour range) orange
+Start_Red NUMBER_VERSION_2
+****1: 0.520000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 0
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 1021_(colour range) smoke
+Start_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.388235 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.333333 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.262745 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.627451 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.521569 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.427451 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.200000
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1021_(emitter) bits
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1021_(particle) bits
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1021_(emitter) smoke
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 5.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1021_(particle) smoke
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 1
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 1
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre 1.800000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 1021_(function) random
+Param_A NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.600000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 7
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 1021_(function) random fixed
+Param_A NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.600000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 8
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1021_(particle) bits
+Radius NUMBER_VERSION_2
+****1: 0.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.250000
+Life 20
+Life_Pct 1.000000
+GravityScalar 0.150000
+Blend_Mode 0
+Texture SFX_spot.ace
+Bounce 0
+Fade_Col 1
+Modifier NONE
+Colour_Range NONE
+Texture_Number -1
+Texture_Size 3
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 4
+Anim_Speed 0.200000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 1
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1021_(particle) flare
+Radius NUMBER_VERSION_2
+****1: 5.000000 1021_(function) random
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life -2
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_hl_flare.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1021_(colour range) orange
+Texture_Number -1
+Texture_Size 3
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 4
+Anim_Speed 0.200000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1021_(particle) smoke
+Radius NUMBER_VERSION_2
+****1: 1.200000 1021_(function) random fixed
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 12.000000
+Life 120
+Life_Pct 20.000000
+GravityScalar -0.003500
+Blend_Mode 1
+Texture SFX_smoke2.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1021_(colour range) smoke
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 15
+Anim_Speed 0.148515
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 6.000000 1021_(function) random fixed
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 1021_Missile Ammo Trail
+Num_Entries 3
+Sorted 0
+Render_Order 0
+Particle_Descriptor 1021_(emitter) bits
+Time 1
+Transmit_FoR 1
+Particle_Descriptor 1021_(particle) flare
+Time 1
+Transmit_FoR 1
+Particle_Descriptor 1021_(emitter) smoke
+Time 3
+Transmit_FoR 1
+*****************************************************************

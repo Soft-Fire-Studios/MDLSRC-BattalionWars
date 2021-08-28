@@ -1,0 +1,172 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 5
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 1138_(colour range) smoke
+Start_Red NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.658824 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 0.100000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.300000
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 1138_(function) Fixed Random
+Param_A NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 8
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 1138_(particle) smoke
+Radius NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMin NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexUGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+TexVGenMax NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 2.750000
+Life 40
+Life_Pct 10.000000
+GravityScalar -0.010000
+Blend_Mode 0
+Texture SFX_smoke2.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 1138_(colour range) smoke
+Texture_Number -1
+Texture_Size 3
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 0.313726
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 7.000000 1138_(function) Fixed Random
+****2: 0 400.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 1
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 7
+Particle_Descriptor_Name 1138_(shape) liftsteam
+Type 0
+Ring_Axis 1
+Hemisphere 0
+Num_Particles 8
+Radius NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Hollow 1
+RandomSX 1.000000
+RandomSY 1.000000
+RandomSZ 1.000000
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 1138_LiftSteam
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 2 100.000000 0 1.000000 0 0.000000
+Life -2
+Particle_Descriptor 1138_(particle) smoke
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.100000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.010000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape 1138_(shape) liftsteam
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************

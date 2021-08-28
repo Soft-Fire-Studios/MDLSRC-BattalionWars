@@ -1,0 +1,2 @@
+function CenotaphHealth(owner)
+end

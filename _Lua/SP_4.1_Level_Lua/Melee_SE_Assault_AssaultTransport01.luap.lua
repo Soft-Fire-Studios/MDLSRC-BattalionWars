@@ -1,0 +1,83 @@
+function Melee_SE_Assault_AssaultTransport01(owner)
+  Kill(Air_Vehicle.SE_Assault_AirTransport01)
+  Kill(Air_Vehicle.SE_Assault_AirTransport02)
+  Kill(Troop.SE_Assault_AirTransport01_Pilot01)
+  Kill(Troop.SE_Assault_AirTransport02_Pilot01)
+  Kill(Troop.SE_Assault_Grunt01)
+  Kill(Troop.SE_Assault_Grunt02)
+  Kill(Troop.SE_Assault_Grunt03)
+  Kill(Troop.SE_Assault_Grunt04)
+  Kill(Troop.SE_Assault_Grunt05)
+  Kill(Troop.SE_Assault_Grunt06)
+  Kill(Troop.SE_Assault_Chain01)
+  Kill(Troop.SE_Assault_Chain02)
+  Kill(Troop.SE_Assault_Chain03)
+  Kill(Troop.SE_Assault_Chain04)
+  repeat
+    EndFrame()
+  until IsDead(Air_Vehicle.SE_Assault_AirTransport01) and IsDead(Air_Vehicle.SE_Assault_AirTransport02) and IsReadyToRevive(Air_Vehicle.SE_Assault_AirTransport01) and IsReadyToRevive(Air_Vehicle.SE_Assault_AirTransport02) and IsDead(Troop.SE_Assault_AirTransport01_Pilot01) and IsDead(Troop.SE_Assault_AirTransport02_Pilot01) and IsReadyToRevive(Troop.SE_Assault_AirTransport01_Pilot01) and IsReadyToRevive(Troop.SE_Assault_AirTransport02_Pilot01) and IsDead(Troop.SE_Assault_Grunt01) and IsDead(Troop.SE_Assault_Grunt02) and IsDead(Troop.SE_Assault_Grunt03) and IsDead(Troop.SE_Assault_Grunt04) and IsDead(Troop.SE_Assault_Grunt05) and IsDead(Troop.SE_Assault_Grunt06) and IsDead(Troop.SE_Assault_Chain01) and IsDead(Troop.SE_Assault_Chain02) and IsDead(Troop.SE_Assault_Chain03) and IsDead(Troop.SE_Assault_Chain04) and IsReadyToRevive(Troop.SE_Assault_Grunt01) and IsReadyToRevive(Troop.SE_Assault_Grunt02) and IsReadyToRevive(Troop.SE_Assault_Grunt03) and IsReadyToRevive(Troop.SE_Assault_Grunt04) and IsReadyToRevive(Troop.SE_Assault_Grunt05) and IsReadyToRevive(Troop.SE_Assault_Grunt06) and IsReadyToRevive(Troop.SE_Assault_Chain01) and IsReadyToRevive(Troop.SE_Assault_Chain02) and IsReadyToRevive(Troop.SE_Assault_Chain03) and IsReadyToRevive(Troop.SE_Assault_Chain04) and AssaultTransport01 == 1
+  ReviveDeadUnit(Air_Vehicle.SE_Assault_AirTransport01, GetObjectXPosition(Waypoint.SE_AirTransport_Respawner), GetObjectZPosition(Waypoint.SE_AirTransport_Respawner), 180, 30)
+  ReviveDeadUnit(Troop.SE_Assault_AirTransport01_Pilot01, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Air_Vehicle.SE_Assault_AirTransport02, GetObjectXPosition(Waypoint.SE_AirTransport_Respawner), GetObjectZPosition(Waypoint.SE_AirTransport_Respawner), 180, 30)
+  ReviveDeadUnit(Troop.SE_Assault_AirTransport02_Pilot01, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt01, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt02, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt03, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt04, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt05, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Grunt06, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Chain01, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Chain02, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Chain03, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  ReviveDeadUnit(Troop.SE_Assault_Chain04, GetObjectXPosition(Waypoint.SE_Respawner), GetObjectZPosition(Waypoint.SE_Respawner), 0, 5)
+  repeat
+    EndFrame()
+  until IsDead(Air_Vehicle.SE_Assault_AirTransport01) == false and IsDead(Air_Vehicle.SE_Assault_AirTransport02) == false and IsDead(Troop.SE_Assault_AirTransport01_Pilot01) == false and IsDead(Troop.SE_Assault_AirTransport02_Pilot01) == false and IsDead(Troop.SE_Assault_Grunt01) == false and IsDead(Troop.SE_Assault_Grunt02) == false and IsDead(Troop.SE_Assault_Grunt03) == false and IsDead(Troop.SE_Assault_Grunt04) == false and IsDead(Troop.SE_Assault_Grunt05) == false and IsDead(Troop.SE_Assault_Grunt06) == false and IsDead(Troop.SE_Assault_Chain01) == false and IsDead(Troop.SE_Assault_Chain02) == false and IsDead(Troop.SE_Assault_Chain03) == false and IsDead(Troop.SE_Assault_Chain04) == false
+  AssaultTransport01ReadyToGo = 1
+  PutUnitInVehicle(Troop.SE_Assault_AirTransport01_Pilot01, Air_Vehicle.SE_Assault_AirTransport01, 0)
+  PutUnitInVehicle(Troop.SE_Assault_AirTransport02_Pilot01, Air_Vehicle.SE_Assault_AirTransport02, 0)
+  PutUnitInVehicle(Troop.SE_Assault_Chain01, Air_Vehicle.SE_Assault_AirTransport01, 3)
+  PutUnitInVehicle(Troop.SE_Assault_Chain02, Air_Vehicle.SE_Assault_AirTransport01, 4)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt01, Air_Vehicle.SE_Assault_AirTransport01, 5)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt02, Air_Vehicle.SE_Assault_AirTransport01, 7)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt03, Air_Vehicle.SE_Assault_AirTransport01, 8)
+  PutUnitInVehicle(Troop.SE_Assault_Chain03, Air_Vehicle.SE_Assault_AirTransport02, 3)
+  PutUnitInVehicle(Troop.SE_Assault_Chain04, Air_Vehicle.SE_Assault_AirTransport02, 4)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt04, Air_Vehicle.SE_Assault_AirTransport02, 5)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt05, Air_Vehicle.SE_Assault_AirTransport02, 7)
+  PutUnitInVehicle(Troop.SE_Assault_Grunt06, Air_Vehicle.SE_Assault_AirTransport02, 8)
+  repeat
+    GetUnitInSeat(Air_Vehicle.SE_Assault_AirTransport01, 0)
+    EndFrame()
+    GetUnitInSeat(Air_Vehicle.SE_Assault_AirTransport02, 0)
+    EndFrame()
+  until NumPassengersInUnit(Air_Vehicle.SE_Assault_AirTransport01) == 6 and NumPassengersInUnit(Air_Vehicle.SE_Assault_AirTransport02) == 6
+  LandAirUnit(Air_Vehicle.SE_Assault_AirTransport01, GetObjectXPosition(Waypoint.SE_Assault_AirTransport01), GetObjectZPosition(Waypoint.SE_Assault_AirTransport01), constant.ORDER_FORCED, 1, 10, 0)
+  LandAirUnit(Air_Vehicle.SE_Assault_AirTransport02, GetObjectXPosition(Waypoint.SE_Assault_AirTransport02), GetObjectZPosition(Waypoint.SE_Assault_AirTransport02), constant.ORDER_FORCED, 1, 10, 0)
+  repeat
+    EndFrame()
+  until (NumPassengersInUnit(Air_Vehicle.SE_Assault_AirTransport01) == 1 or IsDead(Air_Vehicle.SE_Assault_AirTransport01)) and (NumPassengersInUnit(Air_Vehicle.SE_Assault_AirTransport02) == 1 or IsDead(Air_Vehicle.SE_Assault_AirTransport02))
+  AssaultTransport01Landed = 1
+  GoToArea(Air_Vehicle.SE_Assault_AirTransport01, GetObjectXPosition(Waypoint.SE_AirTransport_Respawner), GetObjectZPosition(Waypoint.SE_AirTransport_Respawner), 0, constant.ORDER_FORCED)
+  GoToArea(Air_Vehicle.SE_Assault_AirTransport02, GetObjectXPosition(Waypoint.SE_AirTransport_Respawner), GetObjectZPosition(Waypoint.SE_AirTransport_Respawner), 0, constant.ORDER_FORCED)
+  AttackTarget(Troop.SE_Assault_Chain01, Building.IL_Battlestation01, constant.ORDER_NORMAL)
+  AttackTarget(Troop.SE_Assault_Chain02, Building.IL_Battlestation01, constant.ORDER_NORMAL)
+  GoToArea(Troop.SE_Assault_Chain03, GetObjectXPosition(Building.IL_Battlestation01), GetObjectZPosition(Building.IL_Battlestation01), 15, 0, constant.ORDER_FORCED)
+  GoToArea(Troop.SE_Assault_Chain04, GetObjectXPosition(Building.IL_Battlestation01), GetObjectZPosition(Building.IL_Battlestation01), 15, 0, constant.ORDER_FORCED)
+  AttackTarget(Troop.SE_Assault_Grunt01, Building.IL_Battlestation01, constant.ORDER_NORMAL)
+  AttackTarget(Troop.SE_Assault_Grunt02, Building.IL_Battlestation01, constant.ORDER_NORMAL)
+  AttackTarget(Troop.SE_Assault_Grunt03, Building.IL_Battlestation01, constant.ORDER_NORMAL)
+  GoToArea(Troop.SE_Assault_Grunt04, GetObjectXPosition(Building.IL_Battlestation01), GetObjectZPosition(Building.IL_Battlestation01), 15, 0, constant.ORDER_FORCED)
+  GoToArea(Troop.SE_Assault_Grunt05, GetObjectXPosition(Building.IL_Battlestation01), GetObjectZPosition(Building.IL_Battlestation01), 15, 0, constant.ORDER_FORCED)
+  GoToArea(Troop.SE_Assault_Grunt06, GetObjectXPosition(Building.IL_Battlestation01), GetObjectZPosition(Building.IL_Battlestation01), 15, 0, constant.ORDER_FORCED)
+  repeat
+    if IsInRange(Air_Vehicle.SE_Assault_AirTransport01, Waypoint.SE_AirTransport_Respawner, 30) then
+      Kill(Air_Vehicle.SE_Assault_AirTransport01)
+    end
+    EndFrame()
+    if IsInRange(Air_Vehicle.SE_Assault_AirTransport02, Waypoint.SE_AirTransport_Respawner, 30) then
+      Kill(Air_Vehicle.SE_Assault_AirTransport02)
+    end
+    EndFrame()
+  until IsDead(Air_Vehicle.SE_Assault_AirTransport01) and IsDead(Air_Vehicle.SE_Assault_AirTransport02) and IsDead(Troop.SE_Assault_Grunt01) and IsDead(Troop.SE_Assault_Grunt02) and IsDead(Troop.SE_Assault_Grunt03) and IsDead(Troop.SE_Assault_Grunt04) and IsDead(Troop.SE_Assault_Grunt05) and IsDead(Troop.SE_Assault_Grunt06) and IsDead(Troop.SE_Assault_Chain01) and IsDead(Troop.SE_Assault_Chain02) and IsDead(Troop.SE_Assault_Chain03) and IsDead(Troop.SE_Assault_Chain04)
+end

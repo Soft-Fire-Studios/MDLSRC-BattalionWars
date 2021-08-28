@@ -1,0 +1,12 @@
+function DESPAWNING(owner)
+  Despawn(Capture_Point.XY_Airbase_flag)
+  Despawn(Capture_Point.XY_Docks_Flag)
+  Despawn(Capture_Point.WF_Airbase_flag)
+  Despawn(Capture_Point.WF_Docks_Flag)
+  Despawn(Water_Vehicle.XYwinXYDreadnought)
+  Despawn(Water_Vehicle.XYwinWFDreadnought)
+  Despawn(Water_Vehicle.WFwinXYDreadnought)
+  Despawn(Water_Vehicle.WFwinWFDreadnought)
+  Despawn(Troop.Player1TransferUnit)
+  Despawn(Troop.Player2TransferUnit)
+end

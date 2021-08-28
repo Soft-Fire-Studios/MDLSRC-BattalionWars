@@ -1,0 +1,35 @@
+function W1_Air_Transport_02(owner)
+  Script06 = owner
+  AddToGroup(Unit_Group.Wave_1, Troop.AI_Grunt_5)
+  AddToGroup(Unit_Group.Wave_1, Troop.AI_Grunt_6)
+  AddToGroup(Unit_Group.Wave_1, Troop.AI_Grunt_7)
+  AddToGroup(Unit_Group.Wave_1, Troop.AI_Grunt_8)
+  Despawn(Air_Vehicle.AI_Air_Transport_2)
+  repeat
+    EndFrame()
+  until wave == 1
+  WaitFor(4)
+  DebugOut("Wave 1 Begins, Spawn Air Transport 2")
+  Spawn(Air_Vehicle.AI_Air_Transport_2)
+  WaitFor(1)
+  LandAirUnit(Air_Vehicle.AI_Air_Transport_2, -200, 1160, constant.ORDER_FORCED, 1, 5, 90)
+  repeat
+    EndFrame()
+  until GetMovementState(Air_Vehicle.AI_Air_Transport_2) == constant.MOVEMENT_STATE_ON_GROUND
+  DebugOut("Air Transport 2 has landed")
+  WaitFor(1)
+  GoToArea(Troop.AI_Grunt_5, -100, 1335, 10)
+  GoToArea(Troop.AI_Grunt_6, -100, 1335, 10)
+  GoToArea(Troop.AI_Grunt_7, -100, 1335, 10)
+  GoToArea(Troop.AI_Grunt_8, -100, 1335, 10)
+  WaitFor(2)
+  DebugOut("Send Air Transport 2 away from the play area")
+  GoToArea(Air_Vehicle.AI_Air_Transport_2, 435, 1335, 10)
+  WaitFor(20)
+  Despawn(Air_Vehicle.AI_Air_Transport_2)
+  DebugOut("Despawn Air Transport 2")
+  EnterVehicle(Troop.AI_Grunt_5, Capture_Point.Palace)
+  EnterVehicle(Troop.AI_Grunt_6, Capture_Point.Palace)
+  EnterVehicle(Troop.AI_Grunt_7, Capture_Point.Palace)
+  EnterVehicle(Troop.AI_Grunt_8, Capture_Point.Palace)
+end

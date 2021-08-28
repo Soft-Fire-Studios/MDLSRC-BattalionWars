@@ -1,0 +1,699 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 22
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 759_(colour range) cloud green
+Start_Red NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 0.750000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 0.300000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.800000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 759_(colour range) glow green
+Start_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.350000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.350000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.950000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 759_(colour range) sparkle green
+Start_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 759_(colour range) troop green
+Start_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.070000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.040000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.070000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.900000
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 759_(emitter) cloud
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life 16
+Particle_Descriptor 759_(sprite) cloud
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape 759_(shape) small blob
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover 759_(mover) cloud
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 759_(emitter) glow
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life 12
+Particle_Descriptor 759_(sprite) glow
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape 759_(shape) glow ring
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover 759_(mover) glow
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 759_(emitter) sparkle emitter
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 5.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life 33
+Particle_Descriptor 759_(sprite) sparkle
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 1
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape 759_(shape) sparkle box
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover NONE
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 2
+Particle_Descriptor_Name 759_(emitter) troop shape z
+Emit_Per_Turn NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Life 18
+Particle_Descriptor 759_(sprite) troop z
+Initial_Velocity_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Initial_Velocity_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Velocity_Randomness NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transmit_Life 0
+Transmit_FoR 0
+Transmit_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Interpolated_Emission 0
+Transmit_FoR_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Shape NONE
+Pass_Num_Particles 0
+Outward_Velocity NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Mover 759_(mover) troop spin
+Emit_Per_Metre -1.000000
+Snap_To_Water 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 759_(function) bell curve
+Param_A NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 6.242000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 3.140000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 4
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 759_(function) random
+Param_A NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 1
+Clip 1
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 759_(function) spin
+Param_A NUMBER_VERSION_2
+****1: 0.700000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 1
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 759_(mover) cloud
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 1
+Yaw_Num NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 759_(mover) glow
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 1
+Yaw_Num NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.200000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 759_(mover) troop spin
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 1
+Yaw_Num NUMBER_VERSION_2
+****1: 1.770000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 7
+Particle_Descriptor_Name 759_(shape) glow ring
+Type 2
+Ring_Axis 0
+Hemisphere 0
+Num_Particles 2
+Radius NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 1 100.000000 0 1.000000 0 0.000000
+Hollow 1
+RandomSX 0.200000
+RandomSY 0.200000
+RandomSZ 0.200000
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 7
+Particle_Descriptor_Name 759_(shape) small blob
+Type 2
+Ring_Axis 2
+Hemisphere 0
+Num_Particles 1
+Radius NUMBER_VERSION_2
+****1: 0.050000 759_(function) random
+****2: 0 100.000000 0 1.000000 0 0.000000
+Hollow 0
+RandomSX 0.000000
+RandomSY 0.000000
+RandomSZ 0.000000
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 7
+Particle_Descriptor_Name 759_(shape) sparkle box
+Type 2
+Ring_Axis 2
+Hemisphere 0
+Num_Particles 4
+Radius NUMBER_VERSION_2
+****1: 0.330000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Hollow 0
+RandomSX 2.000000
+RandomSY 3.000000
+RandomSZ 2.000000
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 759_(sprite) cloud
+Radius NUMBER_VERSION_2
+****1: 50.000000 759_(function) random
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life 33
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 1
+Texture SFX_MIST.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 759_(colour range) cloud green
+Texture_Number 12
+Texture_Size 4
+Velocity_Damp 1.000000
+Axis_Aligned 3
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 1
+Length NUMBER_VERSION_2
+****1: 10.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 759_(sprite) glow
+Radius NUMBER_VERSION_2
+****1: 10.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.100000
+Life 6
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_radial_glows.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 759_(colour range) glow green
+Texture_Number 12
+Texture_Size 4
+Velocity_Damp 1.000000
+Axis_Aligned 3
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 1
+Length NUMBER_VERSION_2
+****1: 10.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 759_(sprite) sparkle
+Radius NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 0.000000
+Life 10
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_hl_flare.ace
+Bounce 0
+Fade_Col 1
+Modifier NONE
+Colour_Range 759_(colour range) sparkle green
+Texture_Number 0
+Texture_Size 4
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 1
+End_Frame 2
+Anim_Speed 0.200000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 1
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 759_(sprite) troop z
+Radius NUMBER_VERSION_2
+****1: 3.000000 759_(function) spin
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life 7
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_spawn_troop.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 759_(colour range) troop green
+Texture_Number 12
+Texture_Size 4
+Velocity_Damp 0.950000
+Axis_Aligned 1
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 3.141000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 0
+Wrapping_Box -1.000000
+Wrapping_Box_Alpha_Band 0.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 759_Spawn IL Small
+Num_Entries 4
+Sorted 0
+Render_Order 0
+Particle_Descriptor 759_(emitter) cloud
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 759_(emitter) glow
+Time 27
+Transmit_FoR 1
+Particle_Descriptor 759_(emitter) troop shape z
+Time 27
+Transmit_FoR 1
+Particle_Descriptor 759_(emitter) sparkle emitter
+Time 33
+Transmit_FoR 1
+*****************************************************************

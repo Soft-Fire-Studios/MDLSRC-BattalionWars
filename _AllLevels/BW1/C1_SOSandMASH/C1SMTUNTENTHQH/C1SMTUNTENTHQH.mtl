@@ -1,0 +1,16 @@
+newmtl Node 0_mat0
+map_kd c1smtuntenthq2.png
+newmtl Node 0_mat1
+map_kd c1smtuntenthq.png
+newmtl Node 1_mat0
+map_kd c1smtuntenthq.png
+newmtl Node 2_mat0
+map_kd c1smtuntenthq2.png
+newmtl Node 2_mat1
+map_kd c1smtuntenthq.png
+newmtl Node 2_mat2
+map_kd c1smrope.png
+newmtl Node 2_mat3
+map_kd c1smmetal.png
+newmtl Node 2_mat4
+map_kd c1sngras.png

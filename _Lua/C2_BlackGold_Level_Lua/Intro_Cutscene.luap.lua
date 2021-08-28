@@ -1,0 +1,23 @@
+function Intro_Cutscene(owner)
+  cutkiller = owner
+  CameraSetFOV(Camera.tower, 70, constant.IMMEDIATE, 4, constant.NO_WAIT)
+  CameraSetFOV(Camera.tower, 35, constant.SMOOTH, 3, constant.NO_WAIT)
+  StartIntro()
+  WaitFor(1)
+  PhoneMessage(0, constant.ID_NONE, 0, 3, SpriteID.CO_WF_Betty_Happy)
+  WaitFor(8)
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  SetCamera(Camera.site)
+  CameraSetFOV(Camera.site, 5, constant.SMOOTH, 4, constant.NO_WAIT)
+  CameraFade(constant.FADE_IN, constant.WAIT, 1)
+  PhoneMessage(1, constant.ID_NONE, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  WaitFor(7)
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  SetCamera(Camera.bomber)
+  CameraSetFOV(Camera.bomber, 70, constant.IMMEDIATE, 0, constant.NO_WAIT)
+  CameraFade(constant.FADE_IN, constant.WAIT, 1)
+  PhoneMessage(2, constant.ID_NONE, 0, 5, SpriteID.CO_WF_Betty_Happy)
+  WaitFor(8)
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  cutscene = 1
+end

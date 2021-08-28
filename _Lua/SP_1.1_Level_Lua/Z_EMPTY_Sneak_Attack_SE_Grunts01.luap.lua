@@ -1,0 +1,2 @@
+function Z_EMPTY_Sneak_Attack_SE_Grunts01(owner)
+end

@@ -1,0 +1,36 @@
+newmtl Node 0_mat0
+map_kd vugshp_main.png
+newmtl Node 0_mat1
+map_kd vugshp_main.png
+newmtl Node 1_mat0
+map_kd vugshp_main.png
+newmtl Node 2_mat0
+map_kd vugshp_main.png
+newmtl Node 3_mat0
+map_kd vugshp_main.png
+newmtl Node 4_mat0
+map_kd rotorblur2.png
+newmtl Node 5_mat0
+map_kd vugshp_main.png
+newmtl Node 6_mat0
+map_kd vugshp_main.png
+newmtl Node 7_mat0
+map_kd rotorblur2.png
+newmtl Node 13_mat0
+map_kd vugshp_main.png
+newmtl Node 14_mat0
+map_kd vugshp_main.png
+newmtl Node 14_mat1
+map_kd vugshp_main.png
+newmtl Node 17_mat0
+map_kd vugshp_main.png
+newmtl Node 18_mat0
+map_kd vugshp_main.png
+newmtl Node 18_mat1
+map_kd vugshp_main.png
+newmtl Node 20_mat0
+map_kd vugshp_main.png
+newmtl Node 21_mat0
+map_kd vugshp_main.png
+newmtl Node 22_mat0
+map_kd vugshp_main.png

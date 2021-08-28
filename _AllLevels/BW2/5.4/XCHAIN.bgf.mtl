@@ -1,0 +1,4 @@
+newmtl BARREL_mat0
+map_kd x_chaingun.png
+newmtl MUZZLEFLASH_mat0
+map_kd x_chaingun.png

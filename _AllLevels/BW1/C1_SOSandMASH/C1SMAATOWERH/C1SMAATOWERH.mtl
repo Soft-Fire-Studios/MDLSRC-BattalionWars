@@ -1,0 +1,32 @@
+newmtl Node 0_mat0
+map_kd aatower01.png
+newmtl Node 1_mat0
+map_kd aatower01.png
+newmtl Node 2_mat0
+map_kd aatower01.png
+newmtl Node 3_mat0
+map_kd aatower01.png
+newmtl Node 4_mat0
+map_kd aatower01.png
+newmtl Node 5_mat0
+map_kd aatower01.png
+newmtl Node 6_mat0
+map_kd aatower01.png
+newmtl Node 7_mat0
+map_kd aatower01.png
+newmtl Node 9_mat0
+map_kd aatower01.png
+newmtl Node 9_mat1
+map_kd vtltnk_main.png
+newmtl Node 9_mat2
+map_kd vtshare.png
+newmtl Node 11_mat0
+map_kd t-hosegun.png
+newmtl Node 12_mat0
+map_kd t-hosegun.png
+newmtl Node 14_mat0
+map_kd t-hosegun.png
+newmtl Node 16_mat0
+map_kd t-hosegun.png
+newmtl Node 18_mat0
+map_kd t-hosegun.png

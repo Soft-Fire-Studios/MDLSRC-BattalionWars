@@ -1,0 +1,164 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 10
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 713_(frame of reference) gateleft
+Initial 713_(mesh) gateleft
+Death NONE
+Mover 713_{mover} gateopen left
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 713_(function) -1 to 1
+Param_A NUMBER_VERSION_2
+****1: 0.100000 713_{function}_gate right
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 50.265484 NONE
+****2: 0 3000.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 3
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 713_(function)_gate right
+Param_A NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 11
+Particle_Descriptor_Name 713_(mesh) gateleft
+Mesh C4SMBIGGATE_H.S
+Gravity 0
+Life 30
+Bounce 0
+Angular_Momentum 0.000000
+Impact_Spawnee NONE
+Transmit_FoR 0
+Auto_Centre 0
+Sorted 0
+Render_Order 0
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 713_(mover) gateopen right
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 3.200000 NONE
+****2: 1 1000.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 3 200.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 11.000000 713_{function}_gate right
+****2: 1 30.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 1 9.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 713_gateopen
+Num_Entries 2
+Sorted 0
+Render_Order 0
+Particle_Descriptor 713_{frame of reference} gateright
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 713_(frame of reference) gateleft
+Time 0
+Transmit_FoR 1
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 713_{frame of reference} gateright
+Initial 713_{mesh}_GatelRIGHT
+Death NONE
+Mover 713_(mover) gateopen right
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 713_{function}_gate right
+Param_A NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 1000.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 11
+Particle_Descriptor_Name 713_{mesh}_GatelRIGHT
+Mesh C4SMBIGGATE_H.S
+Gravity 0
+Life 30
+Bounce 0
+Angular_Momentum 0.000000
+Impact_Spawnee NONE
+Transmit_FoR 0
+Auto_Centre 0
+Sorted 0
+Render_Order 0
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 713_{mover} gateopen left
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 0
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 11.000000 713_(function)_gate right
+****2: 1 30.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************

@@ -1,0 +1,14 @@
+newmtl Node 0_mat0
+map_kd c1smradio_a.png
+newmtl Node 1_mat0
+map_kd c1smdummy.png
+newmtl Node 2_mat0
+map_kd c1smdummy.png
+newmtl Node 2_mat1
+map_kd c1smbulletholes2.png
+newmtl Node 3_mat0
+map_kd c1smdummy.png
+newmtl Node 3_mat1
+map_kd c1smbulletholes2.png
+newmtl Node 4_mat0
+map_kd c1smbulletholes2.png

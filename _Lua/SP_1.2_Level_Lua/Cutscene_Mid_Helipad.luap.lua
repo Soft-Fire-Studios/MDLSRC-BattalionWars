@@ -1,0 +1,50 @@
+function Cutscene_Mid_Helipad(owner)
+  CutsceneHelipad = owner
+  repeat
+    EndFrame()
+  until IsInArea(GetPlayerUnit(), Map_Zone.TriggerHelipadCutscene)
+  HelipadCutscenePlaying = 1
+  CutsceneHelipadBegin = true
+  ClearMessageQueue()
+  FreezePlayer()
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  SetInvulnerable(flag.TYPE_SOLAR, 1)
+  SetInvulnerable(flag.TYPE_ANGLO, 1)
+  PauseTimerActive = 1
+  SetObjectiveData(Objective_Marker.flamereenforcements, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  SetObjectiveData(Objective.flamereenforcements, constant.OBJECTIVE_DATA_VISIBLE, 1)
+  EnableWeapon(Troop.SEgrunt1, 0)
+  EnableWeapon(Troop.SEgrunt2, 0)
+  EnableWeapon(Troop.SEgrunt3, 0)
+  EnableWeapon(Troop.SEgrunt4, 0)
+  EnableWeapon(Troop.SEgrunt5, 0)
+  EnableWeapon(Troop.SEflame1, 0)
+  EnableWeapon(Troop.SEflame2, 0)
+  EnableWeapon(Troop.SEflame7, 0)
+  EnableWeapon(Troop.SEflame8, 0)
+  EnableWeapon(Troop.SEflame9, 0)
+  EnableWeapon(Ground_Vehicle.SEaatank1, 0)
+  EnableWeapon(Troop.AIgruntB1, 0)
+  EnableWeapon(Troop.AIgruntB2, 0)
+  EnableWeapon(Troop.AIgruntB3, 0)
+  EnableWeapon(Troop.AIgruntB4, 0)
+  EnableWeapon(Troop.AIgruntB5, 0)
+  EnableWeapon(Troop.AIgruntB6, 0)
+  EnableWeapon(Troop.AIbazooka5, 0)
+  EnableWeapon(Troop.AIbazooka6, 0)
+  EnableWeapon(Troop.AIbazooka7, 0)
+  EnableWeapon(Troop.AIbazooka8, 0)
+  EnableWeapon(Air_Vehicle.AIbomber1, 0)
+  SetCamera(Camera.cutscenecam)
+  CameraSetWaypoint(Camera.cutscenecam, Waypoint.CutsceneHelipad)
+  CameraSetTarget(Camera.cutscenecam, Capture_Point.HelipadUntargetable)
+  CameraSetFOV(Camera.cutscenecam, 50, constant.IMMEDIATE, 0, constant.NO_WAIT)
+  ClearMessageQueue()
+  CameraFade(constant.FADE_IN, constant.WAIT, 1)
+  PhoneMessageWithObjective(26, constant.ID_NONE, constant.ARMY_SOLAR, 0, SpriteID.CO_SE_Aqira_Happy, constant.PLAYER_ONE, false, constant.NEW_SECONDARY_OBJECTIVE)
+  repeat
+    EndFrame()
+  until GetNumItemsInMessageQueue(constant.PLAYER_ONE) == 0
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  CutsceneHelipadEnd = true
+end

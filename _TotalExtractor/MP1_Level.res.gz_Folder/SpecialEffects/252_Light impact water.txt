@@ -1,0 +1,173 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 7
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 252_(colour range) darkener
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.600000
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 252_(FOR) surface above water
+Initial 252_(particle) surface splash
+Death NONE
+Mover 252_(mover) 10cm up
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 252_(FOR) upwards above water
+Initial 252_(particle) SFX_watersplash
+Death NONE
+Mover 252_(mover) 10cm up
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 252_(mover) 10cm up
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+MoverVelocityDamp NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 1
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.100000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 252_(particle) SFX_watersplash
+Radius NUMBER_VERSION_2
+****1: 0.350000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 3.000000
+Life 5
+Life_Pct 1.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_watersplash.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 252_(colour range) darkener
+Texture_Number 0
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 1
+End_Frame 2
+Anim_Speed 0.400000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 1
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 1
+Wrapping_Box -1.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 252_(particle) surface splash
+Radius NUMBER_VERSION_2
+****1: 0.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 8.000000
+Life 12
+Life_Pct 0.000000
+GravityScalar 0.000000
+Blend_Mode 0
+Texture SFX_watersplash.ace
+Bounce 0
+Fade_Col 1
+Modifier NONE
+Colour_Range NONE
+Texture_Number 8
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 2
+Anim_Type 0
+End_Frame 7
+Anim_Speed 0.500000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Position_From_Bottom 0
+Sorted 0
+Render_Order 0
+LOD_Bias 1.000000
+Fade_Large_Particles 1
+Wrapping_Box -1.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 252_Light impact water
+Num_Entries 2
+Sorted 0
+Render_Order 0
+Particle_Descriptor 252_(FOR) upwards above water
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 252_(FOR) surface above water
+Time 0
+Transmit_FoR 1
+*****************************************************************

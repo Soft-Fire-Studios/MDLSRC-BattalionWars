@@ -1,0 +1,305 @@
+ParticleSystemEd_File_(C)2000_Lost_Toys_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 11
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 451_(..) RUN ME
+Num_Entries 1
+Particle_Descriptor 451_Constant - white searchlight
+Time 0
+Transmit_FoR 1
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 451_(colour range) mid grey
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 0
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 451_(colour range) white to black
+Start_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.200000
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 451_(function) -1 to 1 wrapped
+Param_A NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 1
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 451_(function) -1 to 1 wrapped offset
+Param_A NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: -0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 1
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 451_(function) 0.5 to 1
+Param_A NUMBER_VERSION_2
+****1: 0.600000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 0.400000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 451_(particle) headlight flare
+Radius NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life -2
+Life_Pct 1.000000
+Gravity 0
+Blend_Mode 0
+Texture SFX_hl_flare.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 451_(colour range) mid grey
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 5
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 1
+Particle_Descriptor_Name 451_(particle) white glow
+Radius NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Final_Radius 1.000000
+Life -2
+Life_Pct 1.000000
+Gravity 0
+Blend_Mode 0
+Texture SFX_white_glow.ace
+Bounce 0
+Fade_Col 0
+Modifier NONE
+Colour_Range 451_(colour range) mid grey
+Texture_Number -1
+Texture_Size 2
+Velocity_Damp 1.000000
+Axis_Aligned 0
+Anim_Type 0
+End_Frame 0
+Anim_Speed 1.000000
+Random_Start_Frame 0
+Length NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+2D 0
+Rotation NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 13
+Particle_Descriptor_Name 451_(pro mesh) headlight inner
+Type 0
+Life -2
+Blend_Mode 0
+Texture SFX_dust.ace
+Colour_Range 451_(colour range) white to black
+Colour_Range2 NONE
+Tile_U NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Tile_V NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_U NUMBER_VERSION_2
+****1: 1.000000 451_(function) -1 to 1 wrapped
+****2: 1 200.000000 0 1.000000 0 0.000000
+Scroll_V NUMBER_VERSION_2
+****1: 1.000000 451_(function) -1 to 1 wrapped
+****2: 1 100.000000 0 1.000000 0 0.000000
+Cylinder_NumPtsAxial 7
+Cylinder_NumPtsRadial 10
+Cylinder_Radius NUMBER_VERSION_2
+****1: 0.500000 451_(function) 0.5 to 1
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Radius2 NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Length NUMBER_VERSION_2
+****1: 5.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Centre 0
+Sphere_NumPtsAx 10
+Sphere_NumPtsRad 10
+Sphere_RadiusTime NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_End NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_End NUMBER_VERSION_2
+****1: 360.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 13
+Particle_Descriptor_Name 451_(pro mesh) headlight outer
+Type 0
+Life -2
+Blend_Mode 0
+Texture SFX_dust.ace
+Colour_Range 451_(colour range) white to black
+Colour_Range2 NONE
+Tile_U NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Tile_V NUMBER_VERSION_2
+****1: 2.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_U NUMBER_VERSION_2
+****1: 1.000000 451_(function) -1 to 1 wrapped
+****2: 1 300.000000 0 1.000000 0 0.000000
+Scroll_V NUMBER_VERSION_2
+****1: 1.000000 451_(function) -1 to 1 wrapped offset
+****2: 1 200.000000 0 1.000000 0 0.000000
+Cylinder_NumPtsAxial 7
+Cylinder_NumPtsRadial 10
+Cylinder_Radius NUMBER_VERSION_2
+****1: 0.700000 451_(function) 0.5 to 1
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Radius2 NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Length NUMBER_VERSION_2
+****1: 4.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Centre 0
+Sphere_NumPtsAx 10
+Sphere_NumPtsRad 10
+Sphere_RadiusTime NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_End NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_End NUMBER_VERSION_2
+****1: 360.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 451_Constant - white searchlight
+Num_Entries 4
+Particle_Descriptor 451_(pro mesh) headlight outer
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 451_(pro mesh) headlight inner
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 451_(particle) headlight flare
+Time 0
+Transmit_FoR 1
+Particle_Descriptor 451_(particle) white glow
+Time 0
+Transmit_FoR 1
+*****************************************************************

@@ -1,0 +1,4 @@
+newmtl WF_GRUNT_MESH_mat0
+map_kd wg_body_diff.png
+newmtl WF_GRUNT_MESH_mat1
+map_kd wg_helmet_diff.png

@@ -1,0 +1,7 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 1
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 027_Vehicle Damage
+Num_Entries 0
+*****************************************************************

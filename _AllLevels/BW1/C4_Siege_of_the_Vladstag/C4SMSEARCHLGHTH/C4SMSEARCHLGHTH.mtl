@@ -1,0 +1,12 @@
+newmtl Node 0_mat0
+map_kd c4smsearchlghtb.png
+newmtl Node 1_mat0
+map_kd c4smwhite.png
+newmtl Node 3_mat0
+map_kd c4smsearchlghtb.png
+newmtl Node 4_mat0
+map_kd c4smsearchlghtb.png
+newmtl Node 4_mat1
+map_kd c4smwhite.png
+newmtl Node 4_mat2
+map_kd c4smsearchlghta.png

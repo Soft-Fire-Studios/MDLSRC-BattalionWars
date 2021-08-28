@@ -1,0 +1,66 @@
+function Objective03LegionPOWCamp(owner)
+  SetActive(Troop.LegionMortarVet01, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.LegionMortarVet02, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.LegionMortarVet03, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.LegionMortarVet04, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.LegionMortarVet05, constant.INACTIVE, constant.ADJUST_WEAPON)
+  while missionend == 0 do
+    if IsDead(Destroyable_Object.POWFence01) or IsDead(Destroyable_Object.POWFence02) or IsDead(Destroyable_Object.POWFence03) or IsDead(Destroyable_Object.POWFence04) or IsDead(Destroyable_Object.POWFence05) or IsDead(Destroyable_Object.POWFence06) or IsDead(Destroyable_Object.POWFence07) or IsDead(Destroyable_Object.POWFence08) or IsDead(Destroyable_Object.POWFence09) or IsDead(Destroyable_Object.POWFence10) or IsDead(Destroyable_Object.POWFence11) or IsDead(Destroyable_Object.POWFence12) or IsDead(Destroyable_Object.POWFence13) or IsDead(Destroyable_Object.POWFence14) or IsDead(Destroyable_Object.POWFence15) or IsDead(Destroyable_Object.POWFence16) or IsDead(Destroyable_Object.POWFence17) or IsDead(Destroyable_Object.POWFence18) or IsDead(Destroyable_Object.POWFence19) or IsDead(Destroyable_Object.POWFence20) or IsDead(Destroyable_Object.POWFence21) or IsDead(Destroyable_Object.POWFence22) or IsDead(Destroyable_Object.POWFence23) or IsDead(Destroyable_Object.POWFence24) or IsDead(Building.POWShell01) then
+      Kill(Building.POWShell01)
+      Kill(Destroyable_Object.POWFence01)
+      Kill(Destroyable_Object.POWFence02)
+      Kill(Destroyable_Object.POWFence03)
+      Kill(Destroyable_Object.POWFence04)
+      Kill(Destroyable_Object.POWFence05)
+      Kill(Destroyable_Object.POWFence06)
+      Kill(Destroyable_Object.POWFence07)
+      Kill(Destroyable_Object.POWFence08)
+      Kill(Destroyable_Object.POWFence09)
+      Kill(Destroyable_Object.POWFence10)
+      Kill(Destroyable_Object.POWFence11)
+      Kill(Destroyable_Object.POWFence12)
+      Kill(Destroyable_Object.POWFence13)
+      Kill(Destroyable_Object.POWFence14)
+      Kill(Destroyable_Object.POWFence15)
+      Kill(Destroyable_Object.POWFence16)
+      Kill(Destroyable_Object.POWFence17)
+      Kill(Destroyable_Object.POWFence18)
+      Kill(Destroyable_Object.POWFence19)
+      Kill(Destroyable_Object.POWFence20)
+      Kill(Destroyable_Object.POWFence21)
+      Kill(Destroyable_Object.POWFence22)
+      Kill(Destroyable_Object.POWFence23)
+      Kill(Destroyable_Object.POWFence24)
+      TechniqueObjectivesCompleted = TechniqueObjectivesCompleted + 1
+      SetObjectiveData(Objective.Player1POWs, constant.OBJECTIVE_DATA_STATE, 1)
+      SetObjectiveData(Objective.Player2POWs, constant.OBJECTIVE_DATA_VISIBLE, 0)
+      SetObjectiveData(Objective.Player2POWsFailed, constant.OBJECTIVE_DATA_VISIBLE, 1)
+      SetObjectiveData(Objective.Player2POWsFailed, constant.OBJECTIVE_DATA_STATE, 1)
+      SetObjectiveData(Objective_Marker.Player1POWsMarker, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 0)
+      SetObjectiveData(Objective_Marker.Player2POWsMarker, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 0)
+      SetActive(Troop.LegionMortarVet01, constant.ACTIVE, constant.ADJUST_WEAPON)
+      SetActive(Troop.LegionMortarVet02, constant.ACTIVE, constant.ADJUST_WEAPON)
+      SetActive(Troop.LegionMortarVet03, constant.ACTIVE, constant.ADJUST_WEAPON)
+      SetActive(Troop.LegionMortarVet04, constant.ACTIVE, constant.ADJUST_WEAPON)
+      SetActive(Troop.LegionMortarVet05, constant.ACTIVE, constant.ADJUST_WEAPON)
+      WaitFor(0.5)
+      DebugOut("*POWCamp01* - The POW Camp has been destroyed")
+      pow01 = 1
+      ClearMessageQueue(constant.PLAYER_TWO)
+      PhoneMessage(42, constant.ID_NONE, constant.ARMY_SOLAR, 0, SpriteID.CO_SE_Leiqo_Helmet_Sad, constant.PLAYER_TWO)
+      if IsNetworkPlayer(constant.PLAYER_ONE) then
+        if GetSpawnMode() == eModeAction.Follow then
+          FollowUnit(Troop.LegionMortarVet01, GetPlayerUnit(0), -1, constant.ORDER_NORMAL)
+          FollowUnit(Troop.LegionMortarVet02, GetPlayerUnit(0), -1, constant.ORDER_NORMAL)
+          FollowUnit(Troop.LegionMortarVet03, GetPlayerUnit(0), -1, constant.ORDER_NORMAL)
+          FollowUnit(Troop.LegionMortarVet04, GetPlayerUnit(0), -1, constant.ORDER_NORMAL)
+          FollowUnit(Troop.LegionMortarVet05, GetPlayerUnit(0), -1, constant.ORDER_NORMAL)
+        end
+        ClearMessageQueue(constant.PLAYER_ONE)
+        PhoneMessage(41, constant.ID_NONE, constant.ARMY_UNDERWORLD, 0, SpriteID.CO_L_Ferrok_Happy, constant.PLAYER_ONE)
+        do break end
+        EndFrame()
+      end
+    end
+  end
+end

@@ -1,0 +1,8 @@
+newmtl SKY_C1RACEAGAINSTTIME_mat0
+map_kd sky_c1raceagainsttime.png
+newmtl MOUNTAINS_mat0
+map_kd sky_c1mountrange.png
+newmtl TREES_mat0
+map_kd sky_c1trees.png
+newmtl MOUNTAINS01_mat0
+map_kd sky_c1nearmountains.png

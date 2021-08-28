@@ -1,0 +1,14 @@
+newmtl Node 0_mat0
+map_kd c1smwoodplank.png
+newmtl Node 0_mat1
+map_kd c1smmossrope.png
+newmtl Node 0_mat2
+map_kd c1snmosshang.png
+newmtl Node 1_mat0
+map_kd c1smwdfence.png
+newmtl Node 2_mat0
+map_kd c1smwdfence.png
+newmtl Node 3_mat0
+map_kd c1smwdfence.png
+newmtl Node 4_mat0
+map_kd c1smwdfence.png

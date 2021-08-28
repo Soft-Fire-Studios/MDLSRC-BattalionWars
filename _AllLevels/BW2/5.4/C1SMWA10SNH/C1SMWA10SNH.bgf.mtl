@@ -1,0 +1,8 @@
+newmtl SMWA10H_mat0
+map_kd c1smw03.png
+newmtl SMWA10H_mat1
+map_kd c1smw02.png
+newmtl SMWA10H_mat2
+map_kd c1smw01.png
+newmtl SMWA10H_mat3
+map_kd c1smw04sn.png

@@ -1,0 +1,30 @@
+newmtl Node 0_mat0
+map_kd c3smcorrigate.png
+newmtl Node 0_mat1
+map_kd c3at1.png
+newmtl Node 0_mat2
+map_kd c3girder01.png
+newmtl Node 0_mat3
+map_kd c3smrocket1.png
+newmtl Node 0_mat4
+map_kd c3at2.png
+newmtl Node 0_mat5
+map_kd c3smradar.png
+newmtl Node 0_mat6
+map_kd c3smbridgemet.png
+newmtl Node 1_mat0
+map_kd c3at1.png
+newmtl Node 2_mat0
+map_kd c3at2.png
+newmtl Node 3_mat0
+map_kd c3smrocket1.png
+newmtl Node 4_mat0
+map_kd c3girder01.png
+newmtl Node 5_mat0
+map_kd c3smbridgemet.png
+newmtl Node 6_mat0
+map_kd c3smradar.png
+newmtl Node 7_mat0
+map_kd c3smcorrigate.png
+newmtl Node 8_mat0
+map_kd c3at1.png

@@ -1,0 +1,52 @@
+newmtl Node 0_mat0
+map_kd c3at1.png
+newmtl Node 1_mat0
+map_kd c3smbarrel2.png
+newmtl Node 1_mat1
+map_kd c3smbarrel1.png
+newmtl Node 2_mat0
+map_kd c3smbarrel2.png
+newmtl Node 2_mat1
+map_kd c3smbarrel1.png
+newmtl Node 3_mat0
+map_kd c3smbarrel2.png
+newmtl Node 3_mat1
+map_kd c3smbarrel1.png
+newmtl Node 4_mat0
+map_kd c3smbarrel2.png
+newmtl Node 4_mat1
+map_kd c3smbarrel1.png
+newmtl Node 5_mat0
+map_kd c3smbridgemet.png
+newmtl Node 6_mat0
+map_kd c3smbridgemet.png
+newmtl Node 7_mat0
+map_kd c3smbridgemet.png
+newmtl Node 8_mat0
+map_kd c3smbridgemet.png
+newmtl Node 9_mat0
+map_kd c3smbridgemet.png
+newmtl Node 10_mat0
+map_kd c3smbridgemet.png
+newmtl Node 10_mat1
+map_kd c3smbox1.png
+newmtl Node 11_mat0
+map_kd c3smbox1.png
+newmtl Node 12_mat0
+map_kd c3smbox1.png
+newmtl Node 13_mat0
+map_kd c3smbox1.png
+newmtl Node 14_mat0
+map_kd c3smbox1.png
+newmtl Node 15_mat0
+map_kd c3smbox1.png
+newmtl Node 16_mat0
+map_kd c3smbox1.png
+newmtl Node 17_mat0
+map_kd c3smbox1.png
+newmtl Node 18_mat0
+map_kd c3smbox1.png
+newmtl Node 19_mat0
+map_kd c3smbridgemet.png
+newmtl Node 19_mat1
+map_kd c3smbox1.png

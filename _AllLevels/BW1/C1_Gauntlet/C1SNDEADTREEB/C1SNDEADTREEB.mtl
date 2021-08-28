@@ -1,0 +1,12 @@
+newmtl Node 0_mat0
+map_kd c1sntrebrk.png
+newmtl Node 0_mat1
+map_kd c1snhthr.png
+newmtl Node 0_mat2
+map_kd c1sngras.png
+newmtl Node 0_mat3
+map_kd c1sndedfls.png
+newmtl Node 0_mat4
+map_kd c1sntrebse.png
+newmtl Node 1_mat0
+map_kd c1sntrebrk.png

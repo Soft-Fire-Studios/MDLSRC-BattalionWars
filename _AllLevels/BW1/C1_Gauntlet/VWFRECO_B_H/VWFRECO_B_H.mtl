@@ -1,0 +1,44 @@
+newmtl Node 0_mat0
+map_kd vwfreco_main.png
+newmtl Node 0_mat1
+map_kd vwfshare.png
+newmtl Node 0_mat2
+map_kd vwfreco_main.png
+newmtl Node 0_mat3
+map_kd vwfshare.png
+newmtl Node 8_mat0
+map_kd vwfshare.png
+newmtl Node 9_mat0
+map_kd vwfshare.png
+newmtl Node 9_mat1
+map_kd vwfshare.png
+newmtl Node 13_mat0
+map_kd vwfreco_main.png
+newmtl Node 13_mat1
+map_kd vwfrecot_treads.png
+newmtl Node 13_mat2
+map_kd vwfreco_main.png
+newmtl Node 14_mat0
+map_kd vwfreco_main.png
+newmtl Node 14_mat1
+map_kd vwfrecot_treads.png
+newmtl Node 14_mat2
+map_kd vwfreco_main.png
+newmtl Node 15_mat0
+map_kd vwfreco_main.png
+newmtl Node 15_mat1
+map_kd vwfrecot_treads.png
+newmtl Node 15_mat2
+map_kd vwfreco_main.png
+newmtl Node 16_mat0
+map_kd vwfreco_main.png
+newmtl Node 16_mat1
+map_kd vwfrecot_treads.png
+newmtl Node 16_mat2
+map_kd vwfreco_main.png
+newmtl Node 17_mat0
+map_kd vwfreco_main.png
+newmtl Node 18_mat0
+map_kd vwfreco_main.png
+newmtl Node 19_mat0
+map_kd vwfreco_main.png

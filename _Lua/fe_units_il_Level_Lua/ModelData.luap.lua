@@ -1,0 +1,118 @@
+function ModelData(owner)
+end
+UnitNames = {
+  {
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+  },
+  {
+    44,
+    48,
+    52,
+    56,
+    60,
+    64
+  },
+  {
+    86,
+    90,
+    94,
+    98,
+    102,
+    106
+  },
+  {
+    124,
+    128,
+    132,
+    136,
+    140,
+    144
+  }
+}
+UnitDescriptions = {
+  {
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  },
+  {
+    46,
+    50,
+    54,
+    58,
+    62,
+    66
+  },
+  {
+    88,
+    92,
+    96,
+    100,
+    104,
+    108
+  },
+  {
+    126,
+    130,
+    134,
+    138,
+    142,
+    146
+  }
+}
+function GetModelWidget(unit)
+  local units = {
+    {
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_Grunt,
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_Bazooka_Vet,
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_Flamer_Vet,
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_A_A_Vet,
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_Mortar_Vet,
+      GUI_3D_Model_Array.Unit_Troop_Ground_IL_H_M_Gun_Vet
+    },
+    {
+      0,
+      0,
+      GUI_3D_Model_Array.Unit_Ground_U_Heavy_Tank,
+      GUI_3D_Model_Array.Unit_Ground_U_Battlestation,
+      0,
+      GUI_3D_Model_Array.Unit_Ground_U_Artillery
+    },
+    {
+      GUI_3D_Model_Array.Unit_Air_U_Gunship,
+      GUI_3D_Model_Array.Unit_Air_U_Fighter,
+      GUI_3D_Model_Array.Unit_Air_U_Bomber,
+      0,
+      0,
+      0
+    },
+    {
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    }
+  }
+  return units[ForcesType][unit]
+end
+function GetModelCount()
+  local units = {
+    6,
+    6,
+    3,
+    0
+  }
+  return units[ForcesType]
+end
+function ModelData_end()
+end

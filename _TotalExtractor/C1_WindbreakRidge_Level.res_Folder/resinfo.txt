@@ -1,0 +1,4 @@
+{
+    "Game": "Battalion Wars",
+    "Level name": "C1_WindbreakRidge_Level"
+}

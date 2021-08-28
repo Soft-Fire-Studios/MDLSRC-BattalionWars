@@ -1,0 +1,8 @@
+newmtl C1SMXSHIELD_mat0
+map_kd c1smxspiderplate1.png
+newmtl C1SMXSHIELD_mat1
+map_kd c1smxplate3.png
+newmtl C1SMXSHIELD_mat2
+map_kd c1smxplate2.png
+newmtl C1SMXSHIELD_mat3
+map_kd c1smxspiderbeam.png

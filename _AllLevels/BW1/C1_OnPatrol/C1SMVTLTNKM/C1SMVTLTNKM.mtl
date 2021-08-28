@@ -1,0 +1,12 @@
+newmtl Node 0_mat0
+map_kd vtltnk_main.png
+newmtl Node 0_mat1
+map_kd vtshare.png
+newmtl Node 0_mat2
+map_kd vtltnkt_treads.png
+newmtl Node 0_mat3
+map_kd vtltnk_treads2a.png
+newmtl Node 0_mat4
+map_kd vtltnk_treads2b.png
+newmtl Node 1_mat0
+map_kd vtltnk_main.png

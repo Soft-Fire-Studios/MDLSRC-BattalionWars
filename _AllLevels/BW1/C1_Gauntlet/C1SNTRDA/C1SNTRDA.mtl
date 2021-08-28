@@ -1,0 +1,8 @@
+newmtl Node 0_mat0
+map_kd c1sntrbk.png
+newmtl Node 0_mat1
+map_kd c1sntrbs.png
+newmtl Node 0_mat2
+map_kd c1sncrcs.png
+newmtl Node 0_mat3
+map_kd c1sntrfl.png

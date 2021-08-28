@@ -1,0 +1,10 @@
+newmtl Node 0_mat0
+map_kd c3at2.png
+newmtl Node 0_mat1
+map_kd c3smthatch.png
+newmtl Node 0_mat2
+map_kd c3at1.png
+newmtl Node 0_mat3
+map_kd c3smwall1.png
+newmtl Node 1_mat0
+map_kd c3at1.png

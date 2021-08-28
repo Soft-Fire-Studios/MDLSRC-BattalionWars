@@ -1,0 +1,290 @@
+if Unit_Group == nil then
+  Unit_Group = {}
+end
+if Scripted_Effect == nil then
+  Scripted_Effect = {}
+end
+if Objective_Marker == nil then
+  Objective_Marker = {}
+end
+if Damage_Zone == nil then
+  Damage_Zone = {}
+end
+if SpriteID == nil then
+  SpriteID = {}
+end
+if Capture_Point == nil then
+  Capture_Point = {}
+end
+if Pickup == nil then
+  Pickup = {}
+end
+if Sound_Ambient_Sound_Area_Point_Sphere == nil then
+  Sound_Ambient_Sound_Area_Point_Sphere = {}
+end
+if Objective == nil then
+  Objective = {}
+end
+if Map_Zone == nil then
+  Map_Zone = {}
+end
+if Building == nil then
+  Building = {}
+end
+if Sound_Ambient_Sound_Area_Point_Box == nil then
+  Sound_Ambient_Sound_Area_Point_Box = {}
+end
+if SoundID == nil then
+  SoundID = {}
+end
+if Air_Vehicle == nil then
+  Air_Vehicle = {}
+end
+if Waypoint == nil then
+  Waypoint = {}
+end
+if Ground_Vehicle == nil then
+  Ground_Vehicle = {}
+end
+if Camera == nil then
+  Camera = {}
+end
+if Troop == nil then
+  Troop = {}
+end
+if Destroyable_Object == nil then
+  Destroyable_Object = {}
+end
+SpriteID.CO_X_Ingrid_Sad = RegisterReflectionId("1100005137")
+SpriteID.CO_X_Ingrid_Happy = RegisterReflectionId("1100005136")
+SpriteID.CO_SE_Leiqo_Sad = RegisterReflectionId("1100005128")
+SpriteID.CO_SE_Leiqo_Happy = RegisterReflectionId("1100005122")
+Objective_Marker.XGunship2Marker = RegisterReflectionId("150017559")
+Objective_Marker.XGunship1Marker = RegisterReflectionId("150017557")
+Objective_Marker.ObjAA1Marker7 = RegisterReflectionId("150017520")
+Objective_Marker.ObjAA1Marker6 = RegisterReflectionId("150017519")
+Objective_Marker.ObjAA1Marker5 = RegisterReflectionId("150017518")
+Objective_Marker.ObjAA1Marker4 = RegisterReflectionId("150017517")
+Objective.Clear_Skies = RegisterReflectionId("150017515")
+Objective.AA_7of7 = RegisterReflectionId("150017514")
+Objective.AA_6of7 = RegisterReflectionId("150017513")
+Objective.AA_5of7 = RegisterReflectionId("150017512")
+Objective.AA_4of7 = RegisterReflectionId("150017511")
+Air_Vehicle.XBomber3 = RegisterReflectionId("150017424")
+Troop.Xgrunt43 = RegisterReflectionId("150017423")
+Ground_Vehicle.XAA7 = RegisterReflectionId("150017256")
+Ground_Vehicle.XAA6 = RegisterReflectionId("150017255")
+Building.Entity0001 = RegisterReflectionId("150017168")
+Building.Entity0000 = RegisterReflectionId("150017167")
+Destroyable_Object.Wire4 = RegisterReflectionId("150017166")
+Destroyable_Object.Wire3 = RegisterReflectionId("150017165")
+Destroyable_Object.Wire2 = RegisterReflectionId("150017164")
+Destroyable_Object.Wire1 = RegisterReflectionId("150017163")
+Troop.Xbaz10 = RegisterReflectionId("150017098")
+Troop.Xbaz9 = RegisterReflectionId("150017097")
+Troop.Xbaz8 = RegisterReflectionId("150017096")
+Troop.Xbaz7 = RegisterReflectionId("150017095")
+Objective.Art_2of2 = RegisterReflectionId("150017085")
+Objective.Art_1of2 = RegisterReflectionId("150017084")
+Objective.AA_3of7 = RegisterReflectionId("150017083")
+Objective.AA_2of7 = RegisterReflectionId("150017082")
+Objective.AA_1of7 = RegisterReflectionId("150017081")
+Destroyable_Object.POWCAMP02_WIRE06 = RegisterReflectionId("2142727029")
+Destroyable_Object.POWCAMP02_WIRE05 = RegisterReflectionId("2142727028")
+Destroyable_Object.POWCAMP02_WIRE04 = RegisterReflectionId("2142727027")
+Destroyable_Object.POWCAMP02_WIRE10 = RegisterReflectionId("2142727026")
+Destroyable_Object.POWCAMP02_WIRE11 = RegisterReflectionId("2142727025")
+Destroyable_Object.POWCAMP02_WIRE12 = RegisterReflectionId("2142727024")
+Destroyable_Object.POWCAMP02_WIRE03 = RegisterReflectionId("2142727017")
+Destroyable_Object.POWCAMP02_WIRE02 = RegisterReflectionId("2142727016")
+Destroyable_Object.POWCAMP02_WIRE01 = RegisterReflectionId("2142727015")
+Destroyable_Object.POWCAMP02_WIRE07 = RegisterReflectionId("2142727011")
+Destroyable_Object.POWCAMP02_WIRE08 = RegisterReflectionId("2142727010")
+Troop.SE_FLM03 = RegisterReflectionId("2142727008")
+Troop.SE_FLM02 = RegisterReflectionId("2142727007")
+Troop.SE_FLM04 = RegisterReflectionId("2142727006")
+Troop.SE_FLM01 = RegisterReflectionId("2142727005")
+Troop.SE_FLM05 = RegisterReflectionId("2142727003")
+Destroyable_Object.POWCAMP02_WIRE09 = RegisterReflectionId("2142727001")
+Destroyable_Object.POWCAMP01_WIRE06 = RegisterReflectionId("2142726998")
+Destroyable_Object.POWCAMP01_WIRE02 = RegisterReflectionId("2142726997")
+Destroyable_Object.POWCAMP01_WIRE01 = RegisterReflectionId("2142726996")
+Destroyable_Object.POWCAMP01_WIRE04 = RegisterReflectionId("2142726995")
+Destroyable_Object.POWCAMP01_WIRE03 = RegisterReflectionId("2142726994")
+Destroyable_Object.POWCAMP01_WIRE05 = RegisterReflectionId("2142726991")
+Destroyable_Object.POWCAMP01_WIRE11 = RegisterReflectionId("2142726979")
+Destroyable_Object.POWCAMP01_WIRE10 = RegisterReflectionId("2142726978")
+Destroyable_Object.POWCAMP01_WIRE09 = RegisterReflectionId("2142726971")
+Destroyable_Object.POWCAMP01_WIRE12 = RegisterReflectionId("2142726970")
+Destroyable_Object.POWCAMP01_WIRE08 = RegisterReflectionId("2142726961")
+Destroyable_Object.POWCAMP01_WIRE07 = RegisterReflectionId("2142726960")
+Destroyable_Object.POWCAMP01_WIRE13 = RegisterReflectionId("2142726959")
+Destroyable_Object.POWCAMP01_WIRE14 = RegisterReflectionId("2142726958")
+Destroyable_Object.POWCAMP01_WIRE15 = RegisterReflectionId("2142726957")
+Destroyable_Object.POWCAMP01_WIRE16 = RegisterReflectionId("2142726956")
+Troop.SE_HTK04_CRW03 = RegisterReflectionId("2142726953")
+Troop.SE_HTK05_CRW03 = RegisterReflectionId("2142726952")
+Troop.SE_HTK06_CRW03 = RegisterReflectionId("2142726951")
+Troop.SE_HTK04_CRW02 = RegisterReflectionId("2142726950")
+Troop.SE_HTK05_CRW02 = RegisterReflectionId("2142726949")
+Troop.SE_HTK06_CRW02 = RegisterReflectionId("2142726948")
+Objective_Marker.ObjAA1Marker3 = RegisterReflectionId("2142726920")
+Troop.Xgrunt30 = RegisterReflectionId("2142726918")
+Waypoint.Entity0179 = RegisterReflectionId("2138052578")
+Objective_Marker.ObjAA1Marker2 = RegisterReflectionId("2138052428")
+Objective_Marker.ObjAA1Marker = RegisterReflectionId("2138052427")
+Objective.AA_0of7 = RegisterReflectionId("2138052426")
+Troop.SE_HTK04_CRW01 = RegisterReflectionId("2138052400")
+Troop.SE_HTK05_CRW01 = RegisterReflectionId("2138052399")
+Troop.SE_HTK06_CRW01 = RegisterReflectionId("2138052398")
+Troop.SEHose3 = RegisterReflectionId("2138052394")
+Troop.SEHose2 = RegisterReflectionId("2138052393")
+Ground_Vehicle.XAA3 = RegisterReflectionId("2138052199")
+Ground_Vehicle.XAA2 = RegisterReflectionId("2138052198")
+Ground_Vehicle.XAA1 = RegisterReflectionId("2138052196")
+Troop.SGrunt4 = RegisterReflectionId("2138052154")
+Troop.SGrunt3 = RegisterReflectionId("2138052152")
+Troop.Xbaz3 = RegisterReflectionId("2138052150")
+Troop.Xbaz2 = RegisterReflectionId("2138052149")
+Troop.SGrunt1 = RegisterReflectionId("2138052147")
+Ground_Vehicle.SHeavyTank1 = RegisterReflectionId("2138052145")
+Troop.Xbaz1 = RegisterReflectionId("550005549")
+Troop.Ssearchlight0002 = RegisterReflectionId("550005495")
+Troop.Ssearchlight0001 = RegisterReflectionId("550005356")
+Camera.Camera0001 = RegisterReflectionId("550004037")
+Troop.Xgrunt3 = RegisterReflectionId("550004389")
+Troop.Xgrunt1 = RegisterReflectionId("550004390")
+Waypoint.Entity0000 = RegisterReflectionId("550004782")
+Waypoint.Entity0007 = RegisterReflectionId("550004789")
+Waypoint.Entity0010 = RegisterReflectionId("550004792")
+Waypoint.Entity0013 = RegisterReflectionId("550004795")
+Waypoint.Entity0016 = RegisterReflectionId("550004798")
+Troop.SGrunt2 = RegisterReflectionId("550004814")
+Troop.Xgrunt2 = RegisterReflectionId("550005255")
+Troop.Xgrunt5 = RegisterReflectionId("2138052160")
+Troop.Xgrunt6 = RegisterReflectionId("2138052161")
+Troop.Xgrunt4 = RegisterReflectionId("2138052162")
+Troop.Xgrunt8 = RegisterReflectionId("2138052166")
+Troop.Xgrunt9 = RegisterReflectionId("2138052167")
+Troop.Xgrunt7 = RegisterReflectionId("2138052168")
+Troop.SGrunt8 = RegisterReflectionId("2138052170")
+Troop.SGrunt9 = RegisterReflectionId("2138052171")
+Troop.SGrunt10 = RegisterReflectionId("2138052172")
+Troop.SGrunt7 = RegisterReflectionId("2138052175")
+Ground_Vehicle.SHeavyTank2 = RegisterReflectionId("2138052176")
+Troop.Xbaz6 = RegisterReflectionId("2138052180")
+Troop.Xbaz5 = RegisterReflectionId("2138052181")
+Troop.Xbaz4 = RegisterReflectionId("2138052182")
+Troop.Xgrunt10 = RegisterReflectionId("2138052188")
+Troop.Xgrunt11 = RegisterReflectionId("2138052189")
+Troop.SGrunt14 = RegisterReflectionId("2138052213")
+Troop.SGrunt15 = RegisterReflectionId("2138052214")
+Troop.SGrunt16 = RegisterReflectionId("2138052215")
+Troop.SGrunt17 = RegisterReflectionId("2138052216")
+Troop.SGrunt18 = RegisterReflectionId("2138052217")
+Troop.SGrunt19 = RegisterReflectionId("2138052218")
+Troop.SEHose1 = RegisterReflectionId("2138052221")
+Troop.SEHose4 = RegisterReflectionId("2138052223")
+Troop.SGrunt20 = RegisterReflectionId("2138052235")
+Ground_Vehicle.SHeavyTank3 = RegisterReflectionId("2138052236")
+Unit_Group.SETanks = RegisterReflectionId("2138052242")
+Air_Vehicle.XBomber1 = RegisterReflectionId("2138052244")
+Troop.Xgrunt13 = RegisterReflectionId("2138052273")
+Troop.Xgrunt15 = RegisterReflectionId("2138052274")
+Troop.Xgrunt14 = RegisterReflectionId("2138052275")
+Troop.Xgrunt16 = RegisterReflectionId("2138052280")
+Troop.Xgrunt18 = RegisterReflectionId("2138052281")
+Troop.Xgrunt17 = RegisterReflectionId("2138052282")
+Ground_Vehicle.XAA4 = RegisterReflectionId("2138052292")
+Ground_Vehicle.XAA5 = RegisterReflectionId("2138052293")
+Troop.Xgrunt21 = RegisterReflectionId("2138052294")
+Troop.Xgrunt22 = RegisterReflectionId("2138052295")
+Troop.Xgrunt23 = RegisterReflectionId("2138052296")
+Troop.Xgrunt24 = RegisterReflectionId("2138052307")
+Troop.Xgrunt25 = RegisterReflectionId("2138052308")
+Troop.Xgrunt19 = RegisterReflectionId("2138052311")
+Troop.Xgrunt20 = RegisterReflectionId("2138052312")
+Map_Zone.Trigger1 = RegisterReflectionId("2138052331")
+Air_Vehicle.SEFighter1 = RegisterReflectionId("2138052332")
+Air_Vehicle.SEFighter2 = RegisterReflectionId("2138052338")
+Air_Vehicle.SEFighter3 = RegisterReflectionId("2138052341")
+Troop.SGrunt12 = RegisterReflectionId("2138052345")
+Troop.SEGrunt13 = RegisterReflectionId("2138052346")
+Troop.SGrunt11 = RegisterReflectionId("2138052347")
+Troop.Xgrunt26 = RegisterReflectionId("2138052349")
+Troop.Xgrunt27 = RegisterReflectionId("2138052355")
+Troop.Xgrunt28 = RegisterReflectionId("2138052356")
+Troop.Xgrunt31 = RegisterReflectionId("2138052361")
+Troop.Xgrunt32 = RegisterReflectionId("2138052362")
+Troop.Xgrunt33 = RegisterReflectionId("2138052363")
+Troop.Xgrunt34 = RegisterReflectionId("2138052367")
+Troop.Xgrunt35 = RegisterReflectionId("2138052368")
+Troop.Xgrunt36 = RegisterReflectionId("2138052369")
+Troop.Xgrunt37 = RegisterReflectionId("2138052373")
+Troop.Xgrunt38 = RegisterReflectionId("2138052375")
+Map_Zone.Cheat1 = RegisterReflectionId("2138052376")
+Ground_Vehicle.SHeavyTank4 = RegisterReflectionId("2138052382")
+Ground_Vehicle.SHeavyTank5 = RegisterReflectionId("2138052383")
+Ground_Vehicle.SHeavyTank6 = RegisterReflectionId("2138052384")
+Camera.Cam1 = RegisterReflectionId("2138052401")
+Waypoint.Cut1 = RegisterReflectionId("2138052402")
+Waypoint.Entity0174 = RegisterReflectionId("2138052404")
+Waypoint.Entity0175 = RegisterReflectionId("2138052406")
+Camera.Cam2 = RegisterReflectionId("2138052407")
+Waypoint.Cut2 = RegisterReflectionId("2138052408")
+Waypoint.Entity0177 = RegisterReflectionId("2138052410")
+Camera.Cam3 = RegisterReflectionId("2138052411")
+Objective_Marker.ObjArt1Marker = RegisterReflectionId("2138052413")
+Objective.Art_0of2 = RegisterReflectionId("2138052415")
+Objective_Marker.ObjArt1Marker2 = RegisterReflectionId("2138052417")
+Troop.SE_CGN01 = RegisterReflectionId("2142726908")
+Troop.SE_CGN02 = RegisterReflectionId("2142726909")
+Troop.SE_CGN03 = RegisterReflectionId("2142726910")
+Troop.SE_CGN04 = RegisterReflectionId("2142726911")
+Troop.XArt1_CRW02 = RegisterReflectionId("2142726915")
+Troop.XArt2_CRW02 = RegisterReflectionId("2142726916")
+Troop.XArt4_CRW02 = RegisterReflectionId("2142726926")
+Troop.XArt3_CRW02 = RegisterReflectionId("2142726927")
+Troop.Xgrunt29 = RegisterReflectionId("2142726930")
+Troop.Xgrunt39 = RegisterReflectionId("2142726931")
+Troop.SolarTankGunners4 = RegisterReflectionId("2142726935")
+Troop.SolarTankGunners3 = RegisterReflectionId("2142726936")
+Troop.SolarTankGunners2 = RegisterReflectionId("2142726937")
+Troop.SolarTankGunners1 = RegisterReflectionId("2142726938")
+Troop.Xgrunt40 = RegisterReflectionId("2142727034")
+Troop.Xgrunt41 = RegisterReflectionId("2142727035")
+Ground_Vehicle.XHTank1 = RegisterReflectionId("2142727032")
+Ground_Vehicle.XHTank2 = RegisterReflectionId("2142727031")
+Ground_Vehicle.XArt4 = RegisterReflectionId("2138052374")
+Ground_Vehicle.XArt3 = RegisterReflectionId("2138052372")
+Ground_Vehicle.XArt2 = RegisterReflectionId("2138052209")
+Ground_Vehicle.XArt1 = RegisterReflectionId("2138052203")
+Objective_Marker.POW1 = RegisterReflectionId("150017086")
+Objective_Marker.POW2 = RegisterReflectionId("150017087")
+Objective.POWS = RegisterReflectionId("150017089")
+Map_Zone.Cheat0 = RegisterReflectionId("150017151")
+Troop.XGrunt43 = RegisterReflectionId("150017295")
+Troop.XGrunt44 = RegisterReflectionId("150017296")
+Troop.XGrunt45 = RegisterReflectionId("150017297")
+Troop.XGrunt46 = RegisterReflectionId("150017298")
+Destroyable_Object.Extra_Wire_1 = RegisterReflectionId("150017372")
+Destroyable_Object.Extra_Wire_3 = RegisterReflectionId("150017374")
+Destroyable_Object.Extra_Wire_4 = RegisterReflectionId("150017375")
+Destroyable_Object.Extra_Wire_5 = RegisterReflectionId("150017376")
+Destroyable_Object.Extra_Wire_2 = RegisterReflectionId("150017377")
+Air_Vehicle.XBomber4 = RegisterReflectionId("150017440")
+Troop.Xgrunt44 = RegisterReflectionId("150017441")
+Air_Vehicle.XBomber5 = RegisterReflectionId("150017442")
+Troop.Xgrunt45 = RegisterReflectionId("150017443")
+Air_Vehicle.XGunship1 = RegisterReflectionId("150017537")
+Troop.XGunship1Pilot = RegisterReflectionId("150017538")
+Air_Vehicle.XGunship2 = RegisterReflectionId("150017541")
+Troop.XGunship2Pilot = RegisterReflectionId("150017542")
+Objective_Marker.XBomber1Marker = RegisterReflectionId("150017548")
+Objective_Marker.XBomber3Marker = RegisterReflectionId("150017551")
+Objective_Marker.XBomber4Marker = RegisterReflectionId("150017552")
+Objective_Marker.XBomber5Marker = RegisterReflectionId("150017553")
+Scripted_Effect.Dust = RegisterReflectionId("200000103")
+Scripted_Effect.Snow = RegisterReflectionId("200001587")
+Scripted_Effect.Null = RegisterReflectionId("550008385")
+Scripted_Effect.Mist = RegisterReflectionId("200000257")

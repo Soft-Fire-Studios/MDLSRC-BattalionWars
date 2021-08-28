@@ -1,0 +1,38 @@
+newmtl Node 0_mat0
+map_kd c1smw04.png
+newmtl Node 0_mat1
+map_kd c1smw02.png
+newmtl Node 0_mat2
+map_kd vwfshare.png
+newmtl Node 0_mat3
+map_kd c1smw01.png
+newmtl Node 3_mat0
+map_kd browning2.png
+newmtl Node 5_mat0
+map_kd browning2.png
+newmtl Node 6_mat0
+map_kd browning2.png
+newmtl Node 8_mat0
+map_kd c1smw01.png
+newmtl Node 9_mat0
+map_kd c1smw02.png
+newmtl Node 9_mat1
+map_kd vwfshare.png
+newmtl Node 10_mat0
+map_kd c1smsandbag2.png
+newmtl Node 10_mat1
+map_kd c1smsandbag1.png
+newmtl Node 11_mat0
+map_kd c1smsandbag2.png
+newmtl Node 11_mat1
+map_kd c1smsandbag1.png
+newmtl Node 12_mat0
+map_kd c1smsandbag1.png
+newmtl Node 13_mat0
+map_kd browning2.png
+newmtl Node 13_mat1
+map_kd c1smw02.png
+newmtl Node 13_mat2
+map_kd vwfshare.png
+newmtl Node 13_mat3
+map_kd c1smw01.png

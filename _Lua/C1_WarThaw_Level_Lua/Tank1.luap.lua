@@ -1,0 +1,73 @@
+function Tank1(owner)
+  repeat
+    EndFrame()
+  until finish == 1 or NumItemsInArea(Map_Zone.TankTrig1, flag.TYPE_WFRONTIER) > 0
+  WaitFor(5)
+  SetObjectiveData(Objective_Marker.Tank, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 0)
+  SetObjectiveData(Objective_Marker.Tank, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  repeat
+    EndFrame()
+  until NumItemsInArea(Map_Zone.TankTrig1, flag.TYPE_WFRONTIER) > 0
+  DebugOut("Chopper shuold spawn round about now. ")
+  if airtransport == 1 then
+    DebugOut("SpawnChopper 1")
+    Spawn(Air_Vehicle.WF1_Air_Transport)
+    LandAirUnit(Air_Vehicle.WF1_Air_Transport, -560, -490, constant.ORDER_FORCED)
+    PhoneMessage(18, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+    DebugOut(" extra message played")
+  else
+    DebugOut("SpawnChopper 2")
+    Spawn(Air_Vehicle.WF1_Air_Transport)
+    LandAirUnit(Air_Vehicle.WF1_Air_Transport, -560, -490, constant.ORDER_FORCED)
+    WaitFor(6)
+    PhoneMessage(18, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  end
+  EndFrame()
+  repeat
+    EndFrame()
+  until GetMovementState(Air_Vehicle.WF1_Air_Transport) == constant.MOVEMENT_STATE_ON_GROUND
+  WaitFor(1)
+  ExitVehicle(Ground_Vehicle.WFLightTank, Air_Vehicle.WF1_Air_Transport)
+  ExitVehicle(Troop.WF6_Rifleman, Air_Vehicle.WF1_Air_Transport)
+  ExitVehicle(Troop.WF7_Rifleman, Air_Vehicle.WF1_Air_Transport)
+  ExitVehicle(Troop.WF8_Rifleman, Air_Vehicle.WF1_Air_Transport)
+  ExitVehicle(Troop.WF9_Rifleman, Air_Vehicle.WF1_Air_Transport)
+  FollowUnit(Troop.WF6_Rifleman, GetPlayerUnit(), 4, 4, constant.ORDER_NORMAL)
+  FollowUnit(Troop.WF7_Rifleman, GetPlayerUnit(), 4, 4, constant.ORDER_NORMAL)
+  FollowUnit(Troop.WF8_Rifleman, GetPlayerUnit(), 4, 4, constant.ORDER_NORMAL)
+  FollowUnit(Troop.WF9_Rifleman, GetPlayerUnit(), 4, 4, constant.ORDER_NORMAL)
+  FollowUnit(Ground_Vehicle.WFLightTank, GetPlayerUnit(), 1, 10, constant.ORDER_NORMAL)
+  GoToArea(Air_Vehicle.WF1_Air_Transport, -170, 500, 5, nil, constant.ORDER_FORCED)
+  SetObjectiveData(Objective.Phase3, constant.OBJECTIVE_DATA_STATE, 0)
+  SetObjectiveData(Objective_Marker.Tank, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 0)
+  SetObjectiveData(Objective_Marker.Phase3, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  DebugOut("Setting Message")
+  WaitFor(4)
+  SetActive(Ground_Vehicle.WFLightTank, constant.ACTIVE)
+  SetActive(Troop.WF6_Rifleman, constant.ACTIVE)
+  SetActive(Troop.WF7_Rifleman, constant.ACTIVE)
+  SetActive(Troop.WF8_Rifleman, constant.ACTIVE)
+  SetActive(Troop.WF9_Rifleman, constant.ACTIVE)
+  PhoneMessage(16, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  SetHudState(constant.HUD_CONTROLIMAGE_ALL, constant.HUD_ITEM_ON, 540, 380, 0.6)
+  SetHudState(constant.HUD_CONTROLIMAGE_Z, constant.HUD_ITEM_FLASH, 3, 540, 380, 0.6)
+  WaitFor(3)
+  SetHudState(constant.HUD_CONTROLIMAGE_SHOULDERL, constant.HUD_ITEM_ON, 540, 380, 0.6)
+  SetHudState(constant.HUD_CONTROLIMAGE_Z, constant.HUD_ITEM_FLASH, 5, 540, 380, 0.6)
+  WaitFor(5)
+  SetHudState(constant.HUD_CONTROLIMAGE_ALL, constant.HUD_ITEM_OFF, 540, 380, 0.6)
+  SetHudState(constant.HUD_CONTROLIMAGE_SHOULDERL, constant.HUD_ITEM_OFF, 540, 380, 0.6)
+  EndFrame()
+  repeat
+    EndFrame()
+  until 6 > NumItemsInArea(Map_Zone.FinalBase, flag.TYPE_TUNDRAN)
+  reinforce = 1
+  EndFrame()
+  repeat
+    EndFrame()
+  until 3 > NumItemsInArea(Map_Zone.FinalBase, flag.TYPE_TUNDRAN)
+  PhoneMessage(25, 0, 0, 5, SpriteID.CO_WF_Herman_Happy)
+  EndFrame()
+  WaitFor(30)
+  Despawn(Air_Vehicle.WF1_Air_Transport)
+end

@@ -1,0 +1,2 @@
+function Pause_Tutorial_Disable_AA_Vehicle_Controls(owner)
+end

@@ -1,0 +1,2 @@
+function Gambit_Part_1_Cutscene_PlayerWins_Skip(owner)
+end

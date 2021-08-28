@@ -1,0 +1,8 @@
+newmtl VXGUNTURRET_mat0
+map_kd vxgunturret.png
+newmtl TURRET_mat0
+map_kd vxgunturret.png
+newmtl GUN02_mat0
+map_kd vxgunturret.png
+newmtl GUN01_mat0
+map_kd vxgunturret.png

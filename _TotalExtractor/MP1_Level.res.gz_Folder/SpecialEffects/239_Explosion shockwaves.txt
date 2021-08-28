@@ -1,0 +1,361 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 12
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 239_(colour range) big shockwave
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.250000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.300000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 239_(colour range) orange
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.340000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.050000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 0
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 239_(colour range) white to black
+Start_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 0.750000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.750000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.750000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Alpha NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 1
+Use_Transition 1
+Transition_Point 0.300000
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 239_(frame of reference) shockwaves
+Initial 239_(timeline) shockwaves
+Death NONE
+Mover 239_(mover) shockwave offset
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 239_(function) SFX_shockwave
+Param_A NUMBER_VERSION_2
+****1: -0.600000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 0
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 10
+Particle_Descriptor_Name 239_(function) SFX_shockwave growth
+Param_A NUMBER_VERSION_2
+****1: -1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_B NUMBER_VERSION_2
+****1: 5.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_C NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_D NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Param_Function 5
+Clip 0
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 239_(mover) shockwave offset
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 0
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 13
+Particle_Descriptor_Name 239_(pro mesh) shockwave
+Type 0
+Life 14
+Blend_Mode 0
+Texture SFX_shock.ace
+Colour_Range NONE
+Colour_Range2 239_(colour range) white to black
+Tile_U NUMBER_VERSION_2
+****1: 17.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Tile_V NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_U NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_V NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_NumPtsAxial 2
+Cylinder_NumPtsRadial 27
+Cylinder_Radius NUMBER_VERSION_2
+****1: 1.000000 239_(function) SFX_shockwave
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Radius2 NUMBER_VERSION_2
+****1: 9.000000 239_(function) SFX_shockwave growth
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Length NUMBER_VERSION_2
+****1: 0.150000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Centre 0
+Sphere_NumPtsAx 10
+Sphere_NumPtsRad 10
+Sphere_RadiusTime NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_End NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_Start NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_End NUMBER_VERSION_2
+****1: 360.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sorted 0
+Render_Order 0
+*****************************************************************
+Particle_Descriptor_Type 13
+Particle_Descriptor_Name 239_(pro mesh) shockwave big
+Type 0
+Life 14
+Blend_Mode 0
+Texture SFX_shock.ace
+Colour_Range NONE
+Colour_Range2 239_(colour range) big shockwave
+Tile_U NUMBER_VERSION_2
+****1: 17.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Tile_V NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_U NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Scroll_V NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_NumPtsAxial 2
+Cylinder_NumPtsRadial 27
+Cylinder_Radius NUMBER_VERSION_2
+****1: 1.000000 239_(function) SFX_shockwave
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Radius2 NUMBER_VERSION_2
+****1: 27.000000 239_(function) SFX_shockwave growth
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Length NUMBER_VERSION_2
+****1: 0.150000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Cylinder_Centre 0
+Sphere_NumPtsAx 10
+Sphere_NumPtsRad 10
+Sphere_RadiusTime NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_Start NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Latitude_End NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_Start NUMBER_VERSION_2
+****1: 180.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sphere_Longitude_End NUMBER_VERSION_2
+****1: 360.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Sorted 0
+Render_Order 0
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 239_(timeline) shockwaves
+Num_Entries 2
+Sorted 0
+Render_Order 0
+Particle_Descriptor 239_(pro mesh) shockwave big
+Time 2
+Transmit_FoR 1
+Particle_Descriptor 239_(pro mesh) shockwave
+Time 7
+Transmit_FoR 1
+*****************************************************************
+Particle_Descriptor_Type 8
+Particle_Descriptor_Name 239_(trail) sparks
+Blend_Mode 0
+Texture SFX_trails.ace
+Width 0.120000
+Start_Width 0.120000
+Num_Points 25
+Colour_Range 239_(colour range) orange
+Wiggle_Factor 0.000000
+Disperse_Rate 0.000000
+Gravity 0
+Life 45
+Taper_Start 0
+Width_With_Life 0
+Type 0
+Impact_Spawnee NONE
+Transmit_FoR 1
+Fade_Point 0
+Use_Segment_Length 0
+SegmentLength 10.000000
+Manual_Wiggle_Enabled 0
+Wiggle_Length NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Yaw_Length NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Flat 0
+Fade_Tail 0
+Trail_Tile 0
+X_Frame_Num 1
+X_Frame_Start 0
+X_Frame_Count 1
+Y_Frame_Num 8
+Y_Frame_Start 0
+Y_Frame_Count 1
+Anim_Speed 1.000000
+Sorted 0
+Render_Order 0
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 239_Explosion shockwaves
+Num_Entries 1
+Sorted 0
+Render_Order 0
+Particle_Descriptor 239_(frame of reference) shockwaves
+Time 0
+Transmit_FoR 1
+*****************************************************************

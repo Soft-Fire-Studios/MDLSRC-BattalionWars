@@ -1,0 +1,14 @@
+newmtl Node 0_mat0
+map_kd c2smw02.png
+newmtl Node 0_mat1
+map_kd c2sndbg2.png
+newmtl Node 0_mat2
+map_kd c2snvegetation01.png
+newmtl Node 0_mat3
+map_kd c2sndbg1.png
+newmtl Node 0_mat4
+map_kd c2smw01.png
+newmtl Node 1_mat0
+map_kd c2smw01.png
+newmtl Node 2_mat0
+map_kd c2smw01.png

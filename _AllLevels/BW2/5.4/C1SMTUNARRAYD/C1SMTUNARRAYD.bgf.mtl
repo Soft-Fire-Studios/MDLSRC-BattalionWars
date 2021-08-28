@@ -1,0 +1,8 @@
+newmtl DUMMY_mat0
+map_kd c1smhq01.png
+newmtl DUMMY_mat1
+map_kd c1smhq02.png
+newmtl DUMMY_mat2
+map_kd c1smmetalfloor.png
+newmtl DUMMY_mat3
+map_kd c1smradiomesh2.png

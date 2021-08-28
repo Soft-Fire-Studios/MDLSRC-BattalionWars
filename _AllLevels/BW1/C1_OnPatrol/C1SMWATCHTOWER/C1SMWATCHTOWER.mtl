@@ -1,0 +1,22 @@
+newmtl Node 0_mat0
+map_kd c1towerwood.png
+newmtl Node 0_mat1
+map_kd c1ttsn.png
+newmtl Node 0_mat2
+map_kd c1smmetalbars.png
+newmtl Node 0_mat3
+map_kd vwfshare.png
+newmtl Node 0_mat4
+map_kd c1smradio_a.png
+newmtl Node 0_mat5
+map_kd c1smsandbag1.png
+newmtl Node 0_mat6
+map_kd c1smsandbag2.png
+newmtl Node 0_mat7
+map_kd c1wood2.png
+newmtl Node 0_mat8
+map_kd c1smradio_b.png
+newmtl Node 0_mat9
+map_kd c1smw03.png
+newmtl Node 1_mat0
+map_kd c1smsandbag2.png

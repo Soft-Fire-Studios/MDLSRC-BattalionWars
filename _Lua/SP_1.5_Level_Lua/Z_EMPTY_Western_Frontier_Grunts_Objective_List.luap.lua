@@ -1,0 +1,2 @@
+function Z_EMPTY_Western_Frontier_Grunts_Objective_List(owner)
+end

@@ -1,0 +1,2 @@
+function Purge_RespawnSolarAircraft01(owner)
+end

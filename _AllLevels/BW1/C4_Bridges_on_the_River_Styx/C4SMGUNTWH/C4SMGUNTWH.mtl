@@ -1,0 +1,40 @@
+newmtl Node 0_mat0
+map_kd c4smrkt.png
+newmtl Node 0_mat1
+map_kd c4smw02.png
+newmtl Node 0_mat2
+map_kd c4smw01.png
+newmtl Node 0_mat3
+map_kd c4ttboringmud.png
+newmtl Node 1_mat0
+map_kd c4smw01.png
+newmtl Node 4_mat0
+map_kd browning2.png
+newmtl Node 6_mat0
+map_kd browning2.png
+newmtl Node 7_mat0
+map_kd browning2.png
+newmtl Node 9_mat0
+map_kd c4smrkt.png
+newmtl Node 10_mat0
+map_kd c4sandbag1.png
+newmtl Node 10_mat1
+map_kd c4sandbag2.png
+newmtl Node 11_mat0
+map_kd c4sandbag1.png
+newmtl Node 11_mat1
+map_kd c4sandbag2.png
+newmtl Node 12_mat0
+map_kd c4smrkt.png
+newmtl Node 12_mat1
+map_kd c4sandbag1.png
+newmtl Node 13_mat0
+map_kd c4smw02.png
+newmtl Node 13_mat1
+map_kd c4smw01.png
+newmtl Node 14_mat0
+map_kd c4smw02.png
+newmtl Node 14_mat1
+map_kd c4smw01.png
+newmtl Node 14_mat2
+map_kd c4sandbag2.png

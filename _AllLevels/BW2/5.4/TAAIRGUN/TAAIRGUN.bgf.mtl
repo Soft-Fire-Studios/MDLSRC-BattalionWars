@@ -1,0 +1,4 @@
+newmtl BARREL_mat0
+map_kd tantiairgun.png
+newmtl MUZZLEFLASH_mat0
+map_kd tantiairgun.png

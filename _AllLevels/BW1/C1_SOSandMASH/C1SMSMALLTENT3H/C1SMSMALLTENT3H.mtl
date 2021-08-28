@@ -1,0 +1,32 @@
+newmtl Node 0_mat0
+map_kd c1sngras.png
+newmtl Node 0_mat1
+map_kd c1smrope.png
+newmtl Node 0_mat2
+map_kd c1smmetal.png
+newmtl Node 1_mat0
+map_kd c1smrope.png
+newmtl Node 2_mat0
+map_kd c1sngras.png
+newmtl Node 2_mat1
+map_kd c1smrope.png
+newmtl Node 2_mat2
+map_kd c1smlargetent1.png
+newmtl Node 2_mat3
+map_kd c1smmetal.png
+newmtl Node 3_mat0
+map_kd c1smrope.png
+newmtl Node 3_mat1
+map_kd c1smmetal.png
+newmtl Node 4_mat0
+map_kd c1smrope.png
+newmtl Node 5_mat0
+map_kd c1smrope.png
+newmtl Node 5_mat1
+map_kd c1smmetal.png
+newmtl Node 6_mat0
+map_kd c1smrope.png
+newmtl Node 6_mat1
+map_kd c1smmetal.png
+newmtl Node 7_mat0
+map_kd c1smlargetent1.png

@@ -1,0 +1,28 @@
+newmtl Node 0_mat0
+map_kd s1sky_3a.png
+newmtl Node 1_mat0
+map_kd s1sky_3cld2.png
+newmtl Node 1_mat1
+map_kd s1sky_3cld3.png
+newmtl Node 1_mat2
+map_kd s1sky_3cld1.png
+newmtl Node 2_mat0
+map_kd s1sky_3cld2.png
+newmtl Node 2_mat1
+map_kd s1sky_3cld3.png
+newmtl Node 2_mat2
+map_kd s1sky_3cld1.png
+newmtl Node 3_mat0
+map_kd s1sky_3cld2.png
+newmtl Node 3_mat1
+map_kd s1sky_3cld3.png
+newmtl Node 3_mat2
+map_kd s1sky_3cld1.png
+newmtl Node 4_mat0
+map_kd s1sky_3cld3.png
+newmtl Node 5_mat0
+map_kd s1sky_3cld2.png
+newmtl Node 5_mat1
+map_kd s1sky_3cld3.png
+newmtl Node 5_mat2
+map_kd s1sky_3cld1.png

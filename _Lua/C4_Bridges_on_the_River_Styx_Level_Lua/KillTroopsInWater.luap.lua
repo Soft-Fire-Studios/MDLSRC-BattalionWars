@@ -1,0 +1,45 @@
+function KillTroopsInWater(owner)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet1)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet2)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet3)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet4)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet5)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet6)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet7)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.ChainVet8)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet4)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet5)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet6)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet7)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet8)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFBazookaVet9)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt1)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt2)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt3)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt4)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt5)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt6)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt7)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt8)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt9)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt10)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt11)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt12)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFGrunt13)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFMissileVet1)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFMissileVet2)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFMissileVet4)
+  AddToGroup(Unit_Group.KillDudesInWater, Troop.WFMissileVet5)
+  local KillGroupInWater = function(group_name)
+    for i = 1, GetNumMatchingInGroup(group_name) do
+      local CurrentUnit = GetGroupMember(group_name, i)
+      if not IsDead(CurrentUnit) and GetMovementState(CurrentUnit) == constant.MOVEMENT_STATE_SWIMMING then
+        Kill(CurrentUnit)
+      end
+    end
+  end
+  while true do
+    KillGroupInWater(Unit_Group.KillDudesInWater)
+    WaitFor(1)
+  end
+end

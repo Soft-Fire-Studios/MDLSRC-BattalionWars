@@ -1,0 +1,114 @@
+ParticleSystemEd_File_(C)2004_Kuju_Ltd
+File_Version 2.000000
+Num_Particle_Descriptors 5
+Particle_Descriptor_Type 5
+Particle_Descriptor_Name 231_(colour range) mid grey
+Start_Red NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Green NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Start_Blue NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Red NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+End_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Red NUMBER_VERSION_2
+****1: 1.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Green NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Transition_Blue NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Use_End 0
+Use_Transition 0
+Transition_Point 0.500000
+*****************************************************************
+Particle_Descriptor_Type 12
+Particle_Descriptor_Name 231_(frame of reference) bomb
+Initial 231_(trail) bomb
+Death NONE
+Mover 231_(mover) offset
+*****************************************************************
+Particle_Descriptor_Type 9
+Particle_Descriptor_Name 231_(mover) offset
+GravityPC NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Orientation_Active 0
+Orientation_Add 0
+Yaw_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pitch_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Roll_Num NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Active 1
+Pos_X NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Y NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Pos_Z NUMBER_VERSION_2
+****1: 0.500000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+*****************************************************************
+Particle_Descriptor_Type 8
+Particle_Descriptor_Name 231_(trail) bomb
+Blend_Mode 0
+Texture SFX_trails.ace
+Width 1.300000
+Start_Width 1.300000
+Num_Points 25
+Colour_Range 231_(colour range) mid grey
+Wiggle_Factor 0.000000
+Disperse_Rate 0.000000
+Gravity 0
+Life -2
+Taper_Start 0
+Width_With_Life 0
+Type 0
+Impact_Spawnee NONE
+Transmit_FoR 1
+Fade_Point 0
+Use_Segment_Length 0
+SegmentLength 10.000000
+Manual_Wiggle_Enabled 0
+Wiggle_Length NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Yaw_Length NUMBER_VERSION_2
+****1: 0.000000 NONE
+****2: 0 100.000000 0 1.000000 0 0.000000
+Flat 0
+Fade_Tail 0
+Trail_Tile 0
+X_Frame_Num 1
+X_Frame_Start 0
+X_Frame_Count 1
+Y_Frame_Num 8
+Y_Frame_Start 3
+Y_Frame_Count 1
+Anim_Speed 1.000000
+*****************************************************************
+Particle_Descriptor_Type 6
+Particle_Descriptor_Name 231_Bomb Ammo Trail
+Num_Entries 1
+Particle_Descriptor 231_(frame of reference) bomb
+Time 0
+Transmit_FoR 1
+*****************************************************************

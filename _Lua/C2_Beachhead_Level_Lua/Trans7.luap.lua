@@ -1,0 +1,26 @@
+function Trans7(owner)
+  WaitFor(5)
+  repeat
+    EndFrame()
+  until Trans7Go == 1
+  GoToArea(Air_Vehicle.XAirTrans7, 100, 125, 20, nil, constant.ORDER_FORCED)
+  WaitFor(3)
+  DebugOut("working")
+  repeat
+    EndFrame()
+  until IsInArea(Air_Vehicle.XAirTrans7, 100, 125, 30)
+  DebugOut("dropping passengers")
+  WaitFor(1)
+  ExitVehicle(GetUnitInSeat(Air_Vehicle.XAirTrans7, 5))
+  ExitVehicle(GetUnitInSeat(Air_Vehicle.XAirTrans7, 4))
+  ExitVehicle(GetUnitInSeat(Air_Vehicle.XAirTrans7, 3))
+  ExitVehicle(GetUnitInSeat(Air_Vehicle.XAirTrans7, 2))
+  ExitVehicle(GetUnitInSeat(Air_Vehicle.XAirTrans7, 1))
+  WaitFor(1)
+  DebugOut("going home")
+  GoToArea(Air_Vehicle.XAirTrans7, 750, 1335, 10, nil, constant.ORDER_FORCED)
+  WaitFor(10)
+  GoToArea(Air_Vehicle.XAirTrans7, 1000, 1335, 10, nil, constant.ORDER_FORCED)
+  WaitFor(20)
+  Despawn(owner)
+end

@@ -1,0 +1,8 @@
+newmtl Node 0_mat0
+map_kd c1smhq01.png
+newmtl Node 0_mat1
+map_kd c1smhq02.png
+newmtl Node 0_mat2
+map_kd c1smmetalfloor.png
+newmtl Node 0_mat3
+map_kd c1smradiomesh2.png

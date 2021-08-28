@@ -1,0 +1,22 @@
+newmtl Node 0_mat0
+map_kd c1smmetalbars.png
+newmtl Node 1_mat0
+map_kd c1smmetalbars.png
+newmtl Node 2_mat0
+map_kd c1smmetalbars.png
+newmtl Node 2_mat1
+map_kd c1smbwire1.png
+newmtl Node 2_mat2
+map_kd c1_barbed_wire.png
+newmtl Node 3_mat0
+map_kd c1smmetalbars.png
+newmtl Node 3_mat1
+map_kd c1smbwire1.png
+newmtl Node 3_mat2
+map_kd c1_barbed_wire.png
+newmtl Node 3_mat3
+map_kd c1chainlink1.png
+newmtl Node 4_mat0
+map_kd c1smmetalbars.png
+newmtl Node 4_mat1
+map_kd c1chainlink1.png

@@ -1,0 +1,10 @@
+newmtl Node 0_mat0
+map_kd c2smw02.png
+newmtl Node 0_mat1
+map_kd c2wbits.png
+newmtl Node 0_mat2
+map_kd c2smw01.png
+newmtl Node 0_mat3
+map_kd c2sncrep.png
+newmtl Node 0_mat4
+map_kd c2smw03.png

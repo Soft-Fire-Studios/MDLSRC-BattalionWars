@@ -1,0 +1,2 @@
+function Z_EMPTY_Sneak_Attack_Cutscene05_Abort(owner)
+end

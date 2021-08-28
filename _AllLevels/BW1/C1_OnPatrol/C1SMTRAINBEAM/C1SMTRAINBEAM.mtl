@@ -1,0 +1,10 @@
+newmtl Node 0_mat0
+map_kd c1wood2.png
+newmtl Node 0_mat1
+map_kd c1ttsn.png
+newmtl Node 0_mat2
+map_kd c1towerwood.png
+newmtl Node 0_mat3
+map_kd c2smrope.png
+newmtl Node 1_mat0
+map_kd c1wood2.png

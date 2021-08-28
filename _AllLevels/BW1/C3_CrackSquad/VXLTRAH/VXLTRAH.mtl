@@ -1,0 +1,66 @@
+newmtl Node 0_mat0
+map_kd vxltra_main.png
+newmtl Node 0_mat1
+map_kd vxltra_main.png
+newmtl Node 2_mat0
+map_kd vxshare.png
+newmtl Node 6_mat0
+map_kd vxltra_main.png
+newmtl Node 6_mat1
+map_kd vxltra_main.png
+newmtl Node 6_mat2
+map_kd vxltrat_treads.png
+newmtl Node 6_mat3
+map_kd vxltrat_treads.png
+newmtl Node 7_mat0
+map_kd vxltra_main.png
+newmtl Node 7_mat1
+map_kd vxltra_main.png
+newmtl Node 7_mat2
+map_kd vxltrat_treads.png
+newmtl Node 7_mat3
+map_kd vxltrat_treads.png
+newmtl Node 8_mat0
+map_kd vxltra_main.png
+newmtl Node 8_mat1
+map_kd vxltra_main.png
+newmtl Node 8_mat2
+map_kd vxltrat_treads.png
+newmtl Node 8_mat3
+map_kd vxltrat_treads.png
+newmtl Node 9_mat0
+map_kd vxltra_main.png
+newmtl Node 9_mat1
+map_kd vxltra_main.png
+newmtl Node 9_mat2
+map_kd vxltrat_treads.png
+newmtl Node 9_mat3
+map_kd vxltrat_treads.png
+newmtl Node 12_mat0
+map_kd vxltra_main.png
+newmtl Node 12_mat1
+map_kd vxltra_main.png
+newmtl Node 13_mat0
+map_kd vxshare.png
+newmtl Node 13_mat1
+map_kd vxshare.png
+newmtl Node 13_mat2
+map_kd vxltra_main.png
+newmtl Node 15_mat0
+map_kd vxltra_main.png
+newmtl Node 17_mat0
+map_kd vxltra_main.png
+newmtl Node 18_mat0
+map_kd vxshare.png
+newmtl Node 18_mat1
+map_kd vxshare.png
+newmtl Node 18_mat2
+map_kd vxltra_main.png
+newmtl Node 22_mat0
+map_kd vxltra_main.png
+newmtl Node 23_mat0
+map_kd vxltra_main.png
+newmtl Node 24_mat0
+map_kd vxltra_main.png
+newmtl Node 25_mat0
+map_kd vxltra_main.png

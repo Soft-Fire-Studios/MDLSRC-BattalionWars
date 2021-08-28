@@ -1,0 +1,8 @@
+newmtl Node 0_mat0
+map_kd c2flagpole.png
+newmtl Node 0_mat1
+map_kd c1smrope.png
+newmtl Node 2_mat0
+map_kd c1smrope.png
+newmtl Node 8_mat0
+map_kd c2flagpole.png

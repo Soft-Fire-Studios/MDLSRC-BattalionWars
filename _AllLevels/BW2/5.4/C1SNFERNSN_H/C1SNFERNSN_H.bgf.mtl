@@ -1,0 +1,4 @@
+newmtl FERN_mat0
+map_kd c1snfernsn.png
+newmtl FERN_mat1
+map_kd c1snfern.png

@@ -1,0 +1,14 @@
+newmtl UNITNAVALXFRIGATE_mat0
+map_kd vx_frigate01_main.png
+newmtl UNITNAVALXFRIGATE_mat1
+map_kd vx_frigate02_main.png
+newmtl DEPTH_CHARGE01_mat0
+map_kd vx_frigate01_main.png
+newmtl DEPTH_CHARGE02_mat0
+map_kd vx_frigate01_main.png
+newmtl TURRET02_mat0
+map_kd vx_frigate02_main.png
+newmtl BARREL02_mat0
+map_kd vx_frigate01_main.png
+newmtl GLASS_mat0
+map_kd vxglass.png

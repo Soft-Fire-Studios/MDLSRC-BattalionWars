@@ -1,0 +1,4 @@
+newmtl DUMMY_mat0
+map_kd vxsfrt_main1.png
+newmtl DUMMY_mat1
+map_kd c4smstratbomb.png

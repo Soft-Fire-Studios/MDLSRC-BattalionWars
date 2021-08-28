@@ -1,0 +1,103 @@
+function C1M4_Gameflow(owner)
+  WaitFor(1)
+  GameflowScript = owner
+  SetActive(Troop.WF_Start_Grunt, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.WF_PlayerStartUnit, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Ground_Vehicle.WF_Recon, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Ground_Vehicle.WF_LTank1, constant.INACTIVE, constant.ADJUST_WEAPON)
+  Despawn(Air_Vehicle.TGunship2)
+  repeat
+    EndFrame()
+  until LevelState == 2
+  ClearMessageQueue()
+  PhoneMessage(0, 0, 0, 5, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(41, 0, 0, 5, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(1, 0, 0, 5, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(2, 0, 0, 6, SpriteID.CO_WF_Betty_Happy)
+  WaitFor(6)
+  TimeGo = 1
+  repeat
+    EndFrame()
+  until 0 < NumItemsInArea(-258, -582, 70, flag.TYPE_WFRONTIER)
+  PhoneMessage(4, 0, 0, 3, SpriteID.CO_WF_Betty_Happy)
+  repeat
+    EndFrame()
+  until pows == 1
+  SetActive(Ground_Vehicle.WF_Recon, constant.ACTIVE, constant.ADJUST_WEAPON)
+  ClearMessageQueue()
+  PhoneMessage(52, 0, 0, 2, SpriteID.CO_WF_Betty_Happy)
+  repeat
+    EndFrame()
+  until IsPassengerInUnit(Troop.WF_PlayerStartUnit, Ground_Vehicle.WF_Recon) and IsPassengerInUnit(Troop.WF_Start_Grunt, Ground_Vehicle.WF_Recon)
+  SetActive(Troop.WF_PlayerStartUnit, constant.ACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.WF_Start_Grunt, constant.ACTIVE, constant.ADJUST_WEAPON)
+  repeat
+    EndFrame()
+  until GetPlayerUnit() == 150011899
+  SetActive(Troop.WFGrunt1, constant.INACTIVE)
+  SetActive(Troop.WFGrunt2, constant.INACTIVE)
+  SetActive(Troop.WFGrunt3, constant.INACTIVE)
+  SetActive(Troop.WFGrunt4, constant.INACTIVE)
+  SetActive(Troop.WF_Bazooka5, constant.INACTIVE)
+  SetActive(Troop.WF_Bazooka4, constant.INACTIVE)
+  SetActive(Troop.WF_Bazooka3, constant.INACTIVE)
+  SetActivityMusicLevel(1)
+  PhoneMessage(53, 0, 0, 3, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(56, 0, 0, 3, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(54, 0, 2, 3, SpriteID.CO_T_Nova_Sad)
+  LevelState = 3
+  SetObjectiveData(Objective.Pickup_the_Spy, constant.OBJECTIVE_DATA_STATE, 1)
+  SetObjectiveData(Objective.Break_the_Base, constant.OBJECTIVE_DATA_STATE, 0)
+  SetObjectiveData(Objective_Marker.Break_the_Base, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  repeat
+    EndFrame()
+  until IsInArea(Ground_Vehicle.WF_Recon, Map_Zone.BARBED_ZONE)
+  SetObjectiveData(Objective.Break_the_Base, constant.OBJECTIVE_DATA_STATE, 1)
+  SetObjectiveData(Objective.Get_to_Base, constant.OBJECTIVE_DATA_STATE, 0)
+  SetObjectiveData(Objective_Marker.BASE_MARKER, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  PhoneMessage(55, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  repeat
+    EndFrame()
+  until IsInArea(Ground_Vehicle.WF_Recon, 200, 700, 100)
+  SetObjectiveData(Objective.Get_to_Base, constant.OBJECTIVE_DATA_STATE, 1)
+  Kill(TimerScript)
+  ShowTimer(0)
+  LevelState = 4
+  SetActivityMusicLevel(0.01)
+  AttackTarget(Troop.WF_Anti_Air1, Air_Vehicle.TGunship1)
+  AttackTarget(Troop.WF_Anti_Air2, Air_Vehicle.TGunship1)
+  ClearMessageQueue()
+  PhoneMessage(26, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(32, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(31, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  SetObjectiveData(Objective.Park_Car, constant.OBJECTIVE_DATA_STATE, 0)
+  SetObjectiveData(Objective_Marker.Park_Marker, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  repeat
+    EndFrame()
+  until IsInArea(Ground_Vehicle.WF_Recon, Map_Zone.Park_Zone)
+  ClearMessageQueue()
+  PhoneMessage(27, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  PhoneMessage(33, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+  SetObjectiveData(Objective.Park_Car, constant.OBJECTIVE_DATA_STATE, 1)
+  SetObjectiveData(Objective_Marker.Be_the_Tank, constant.OBJECTIVE_MARKER_DATA_VISIBLE, 1)
+  SetObjectiveData(Objective.Be_the_Tank, constant.OBJECTIVE_DATA_STATE, 0)
+  SetActive(Ground_Vehicle.WF_LTank1, constant.ACTIVE)
+  repeat
+    StopAndGuard(Ground_Vehicle.WF_LTank1)
+    EndFrame()
+  until GetPlayerUnit() == 150013075
+  HasBeenTank = 1
+  SetActive(Ground_Vehicle.WF_LTank1, constant.ACTIVE, constant.ADJUST_WEAPON)
+  SetActive(Troop.WF_Bazooka, constant.ACTIVE)
+  SetActive(Troop.WF_Bazooka2, constant.ACTIVE)
+  SetActive(Troop.WFGrunt5, constant.ACTIVE)
+  SetActive(Troop.WFGrunt6, constant.ACTIVE)
+  SetActive(Troop.WFGrunt7, constant.ACTIVE)
+  SetActive(Troop.WF_Anti_Air1, constant.ACTIVE)
+  SetActive(Troop.WF_Anti_Air2, constant.ACTIVE)
+  SetActive(Ground_Vehicle.WF_Recon, constant.INACTIVE, constant.ADJUST_WEAPON)
+  SetObjectiveData(Objective.Be_the_Tank, constant.OBJECTIVE_DATA_STATE, 1)
+  SetObjectiveData(Objective.Fend_off_Bitches, constant.OBJECTIVE_DATA_STATE, 0)
+  ClearMessageQueue()
+  PhoneMessage(34, 0, 0, 4, SpriteID.CO_WF_Betty_Happy)
+end

@@ -1,0 +1,4 @@
+newmtl Node 0_mat0
+map_kd schaingun.png
+newmtl Node 1_mat0
+map_kd wfrifle.png

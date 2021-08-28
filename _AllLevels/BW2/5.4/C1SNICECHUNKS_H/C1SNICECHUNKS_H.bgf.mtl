@@ -1,0 +1,10 @@
+newmtl C1SNICECHUNKS_mat0
+map_kd c1sniceberg.png
+newmtl OBJECT04_mat0
+map_kd c1sniceberg.png
+newmtl OBJECT03_mat0
+map_kd c1sniceberg.png
+newmtl OBJECT01_mat0
+map_kd c1sniceberg.png
+newmtl OBJECT02_mat0
+map_kd c1sniceberg.png

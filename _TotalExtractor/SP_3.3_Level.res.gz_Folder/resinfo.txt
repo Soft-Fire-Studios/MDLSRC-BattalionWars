@@ -1,0 +1,4 @@
+{
+    "Game": "Battalion Wars 2",
+    "Level name": "SP_3.3_Level"
+}

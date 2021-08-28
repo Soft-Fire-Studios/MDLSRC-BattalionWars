@@ -1,0 +1,2 @@
+function Cutscene_05_Sea_Fort_Failure(owner)
+end

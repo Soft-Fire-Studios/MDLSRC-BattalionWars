@@ -1,0 +1,17 @@
+function WF2_Transport(owner)
+  Despawn(Air_Vehicle.WF_Air_Transport_2)
+  repeat
+    EndFrame()
+  until IsInArea(Air_Vehicle.WF_Air_Transport_2, Map_Zone.DropZone1)
+  LandAirUnit(Air_Vehicle.WF_Air_Transport_2, -690, -1130, constant.ORDER_FORCED)
+  WaitFor(5)
+  ExitVehicle(Troop.WF2Cut, Air_Vehicle.WF_Air_Transport_2)
+  ExitVehicle(Troop.WF3Cut, Air_Vehicle.WF_Air_Transport_2)
+  ExitVehicle(Troop.WF4Cut, Air_Vehicle.WF_Air_Transport_2)
+  ExitVehicle(Troop.WF5Cut, Air_Vehicle.WF_Air_Transport_2)
+  WaitFor(10)
+  GoToArea(Air_Vehicle.WF_Air_Transport_2, -657, -568, 5, nil, constant.ORDER_FORCED)
+  WaitFor(20)
+  Despawn(Air_Vehicle.WF_Air_Transport_2)
+  EndFrame()
+end

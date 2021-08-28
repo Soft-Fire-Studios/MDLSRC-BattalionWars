@@ -1,0 +1,52 @@
+newmtl Node 0_mat0
+map_kd vwfgshp.png
+newmtl Node 0_mat1
+map_kd vwfglass.png
+newmtl Node 0_mat2
+map_kd vwfgshp.png
+newmtl Node 0_mat3
+map_kd vwfglass.png
+newmtl Node 2_mat0
+map_kd vwfgshp.png
+newmtl Node 6_mat0
+map_kd vwfgshp.png
+newmtl Node 7_mat0
+map_kd vwfgshp.png
+newmtl Node 7_mat1
+map_kd vwfgshp.png
+newmtl Node 11_mat0
+map_kd vwfgshp.png
+newmtl Node 12_mat0
+map_kd vwfgshp.png
+newmtl Node 12_mat1
+map_kd vwfgshp.png
+newmtl Node 17_mat0
+map_kd vwfgshp.png
+newmtl Node 17_mat1
+map_kd vwfglass.png
+newmtl Node 17_mat2
+map_kd vwfglass.png
+newmtl Node 19_mat0
+map_kd vwfgshp.png
+newmtl Node 20_mat0
+map_kd vwfgshp.png
+newmtl Node 20_mat1
+map_kd rotorblur1.png
+newmtl Node 22_mat0
+map_kd vwfgshp.png
+newmtl Node 22_mat1
+map_kd rotorblur1.png
+newmtl Node 23_mat0
+map_kd vwfgshp.png
+newmtl Node 23_mat1
+map_kd rotorblur1.png
+newmtl Node 24_mat0
+map_kd vwfgshp.png
+newmtl Node 25_mat0
+map_kd vwfgshp.png
+newmtl Node 26_mat0
+map_kd vwfgshp.png
+newmtl Node 27_mat0
+map_kd vwfgshp.png
+newmtl Node 28_mat0
+map_kd vwfgshp.png

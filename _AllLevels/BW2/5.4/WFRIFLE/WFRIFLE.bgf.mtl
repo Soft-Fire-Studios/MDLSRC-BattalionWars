@@ -1,0 +1,8 @@
+newmtl BARREL_mat0
+map_kd wf_rifle.png
+newmtl BARREL_mat1
+map_kd wf_rifle.png
+newmtl MUZZLEFLASH_mat0
+map_kd wf_rifle.png
+newmtl MUZZLEFLASH_mat1
+map_kd wf_rifle.png

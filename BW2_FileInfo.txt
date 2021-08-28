@@ -1,0 +1,3 @@
+.bgf = model
+.ace = texture
+.luap = compiled lua (references .txt files tho?)

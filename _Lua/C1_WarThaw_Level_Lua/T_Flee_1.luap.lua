@@ -1,0 +1,22 @@
+function T_Flee_1(owner)
+  Despawn(Troop.T1_Rifleman)
+  SetHealthPercent(Troop.WF1_Rifleman, 99)
+  SetHealthPercent(Troop.WF2_Rifleman, 99)
+  SetHealthPercent(Troop.WF3_Rifleman, 99)
+  SetHealthPercent(Troop.WF4_Rifleman, 99)
+  SetHealthPercent(Troop.WF5_Rifleman, 99)
+  EndFrame()
+  repeat
+    EndFrame()
+  until NumItemsInArea(Map_Zone.TundrunFlee, flag.TYPE_WFRONTIER) > 0 or IsDead(Destroyable_Object.SpyTent)
+  Spawn(Troop.T1_Rifleman)
+  SetUnitAI(Troop.T1_Rifleman, constant.AI_DODGE, constant.DODGE_NOT_ALLOWED)
+  GoToArea(Troop.T1_Rifleman, -658.325, -931.411, 5, nil, constant.ORDER_FORCED)
+  PhoneMessage(7, 0, 0, 3, SpriteID.CO_WF_Herman_Happy)
+  EndFrame()
+  repeat
+    EndFrame()
+  until IsInArea(Troop.T1_Rifleman, Map_Zone.SpyEscape)
+  GoToArea(Troop.T1_Rifleman, -661, -925, 2, nil, constant.ORDER_NORMAL)
+  EndFrame()
+end

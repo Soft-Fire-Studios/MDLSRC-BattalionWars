@@ -1,0 +1,44 @@
+newmtl Node 0_mat0
+map_kd vwftpt.png
+newmtl Node 0_mat1
+map_kd vwftpt.png
+newmtl Node 3_mat0
+map_kd vwftpt.png
+newmtl Node 4_mat0
+map_kd vwftpt.png
+newmtl Node 5_mat0
+map_kd vwftpt.png
+newmtl Node 6_mat0
+map_kd vwftpt.png
+newmtl Node 8_mat0
+map_kd vwftpt.png
+newmtl Node 9_mat0
+map_kd vwftpt.png
+newmtl Node 9_mat1
+map_kd rotorblur1.png
+newmtl Node 11_mat0
+map_kd vwftpt.png
+newmtl Node 11_mat1
+map_kd rotorblur1.png
+newmtl Node 12_mat0
+map_kd vwftpt.png
+newmtl Node 16_mat0
+map_kd vwftpt.png
+newmtl Node 17_mat0
+map_kd vwftpt.png
+newmtl Node 19_mat0
+map_kd vwftpt.png
+newmtl Node 20_mat0
+map_kd vwftpt.png
+newmtl Node 23_mat0
+map_kd vwftpt.png
+newmtl Node 24_mat0
+map_kd vwftpt.png
+newmtl Node 25_mat0
+map_kd vwftpt.png
+newmtl Node 26_mat0
+map_kd vwftpt.png
+newmtl Node 27_mat0
+map_kd vwftpt.png
+newmtl Node 35_mat0
+map_kd vwfglass.png

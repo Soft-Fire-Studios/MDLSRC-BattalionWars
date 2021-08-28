@@ -1,0 +1,293 @@
+if Unit_Group == nil then
+  Unit_Group = {}
+end
+if Scripted_Effect == nil then
+  Scripted_Effect = {}
+end
+if Objective_Marker == nil then
+  Objective_Marker = {}
+end
+if Damage_Zone == nil then
+  Damage_Zone = {}
+end
+if SpriteID == nil then
+  SpriteID = {}
+end
+if Capture_Point == nil then
+  Capture_Point = {}
+end
+if Pickup == nil then
+  Pickup = {}
+end
+if Sound_Ambient_Sound_Area_Point_Sphere == nil then
+  Sound_Ambient_Sound_Area_Point_Sphere = {}
+end
+if Objective == nil then
+  Objective = {}
+end
+if Map_Zone == nil then
+  Map_Zone = {}
+end
+if Building == nil then
+  Building = {}
+end
+if Sound_Ambient_Sound_Area_Point_Box == nil then
+  Sound_Ambient_Sound_Area_Point_Box = {}
+end
+if SoundID == nil then
+  SoundID = {}
+end
+if Air_Vehicle == nil then
+  Air_Vehicle = {}
+end
+if Waypoint == nil then
+  Waypoint = {}
+end
+if Ground_Vehicle == nil then
+  Ground_Vehicle = {}
+end
+if Camera == nil then
+  Camera = {}
+end
+if Troop == nil then
+  Troop = {}
+end
+if Destroyable_Object == nil then
+  Destroyable_Object = {}
+end
+SpriteID.CO_T_Nova_Happy = RegisterReflectionId("1100005123")
+SpriteID.CO_T_Nova_Sad = RegisterReflectionId("1100005129")
+SpriteID.CO_WF_Herman_Sad = RegisterReflectionId("1100005135")
+SpriteID.CO_WF_Herman_Happy = RegisterReflectionId("1100005134")
+Scripted_Effect.Dust = RegisterReflectionId("200000103")
+Scripted_Effect.Snow = RegisterReflectionId("200001587")
+Scripted_Effect.Null = RegisterReflectionId("550008385")
+Scripted_Effect.Mist = RegisterReflectionId("200000257")
+Destroyable_Object.Entity0112 = RegisterReflectionId("550003274")
+Map_Zone.WFbazooka = RegisterReflectionId("550015023")
+Waypoint.Entity0318 = RegisterReflectionId("550014017")
+Map_Zone.Fortress = RegisterReflectionId("550013995")
+Map_Zone.Tgrunts = RegisterReflectionId("550013993")
+Map_Zone.Battle04 = RegisterReflectionId("550013984")
+Map_Zone.Battle03 = RegisterReflectionId("550013981")
+Map_Zone.Battle02 = RegisterReflectionId("550013979")
+Map_Zone.Battle01 = RegisterReflectionId("550013977")
+Map_Zone.WFgunships02 = RegisterReflectionId("550013973")
+Map_Zone.WFtanks = RegisterReflectionId("550013966")
+Map_Zone.WFgunships01 = RegisterReflectionId("550013963")
+Unit_Group.GroupTLightTanks02 = RegisterReflectionId("550013945")
+Unit_Group.GroupTLightTanks01 = RegisterReflectionId("550013943")
+Ground_Vehicle.TlightTank0006 = RegisterReflectionId("550013941")
+Troop.TgruntLightTank0005 = RegisterReflectionId("550013940")
+Troop.TgruntLightTank0006 = RegisterReflectionId("550013939")
+Ground_Vehicle.TlightTank0003 = RegisterReflectionId("550013935")
+Troop.TgruntLightTank0002 = RegisterReflectionId("550013934")
+Troop.TgruntLightTank0001 = RegisterReflectionId("550013933")
+Ground_Vehicle.WFheavyTank0004 = RegisterReflectionId("550013929")
+Troop.WFgruntHeavyTank0012 = RegisterReflectionId("550013928")
+Troop.WFgruntHeavyTank0011 = RegisterReflectionId("550013927")
+Troop.WFgruntHeavyTank0010 = RegisterReflectionId("550013926")
+Troop.WFgruntHeavyTank0021 = RegisterReflectionId("550013921")
+Troop.WFgruntHeavyTank0018 = RegisterReflectionId("550013920")
+Troop.WFgruntHeavyTank0015 = RegisterReflectionId("550013919")
+Ground_Vehicle.TlightTank0005 = RegisterReflectionId("550013871")
+Troop.TgruntLightTank0009 = RegisterReflectionId("550013870")
+Troop.TgruntLightTank0010 = RegisterReflectionId("550013869")
+Troop.WFgruntHeavyTank0020 = RegisterReflectionId("550013865")
+Troop.WFgruntHeavyTank0019 = RegisterReflectionId("550013864")
+Ground_Vehicle.WFheavyTank0007 = RegisterReflectionId("550013863")
+Troop.WFgruntHeavyTank0017 = RegisterReflectionId("550013862")
+Troop.WFgruntHeavyTank0016 = RegisterReflectionId("550013861")
+Ground_Vehicle.WFheavyTank0006 = RegisterReflectionId("550013860")
+Troop.WFgruntHeavyTank0014 = RegisterReflectionId("550013853")
+Troop.WFgruntHeavyTank0013 = RegisterReflectionId("550013852")
+Ground_Vehicle.WFheavyTank0005 = RegisterReflectionId("550013851")
+Objective_Marker.Grunt_Objective = RegisterReflectionId("550007633")
+Objective_Marker.HeavyTank_Objective = RegisterReflectionId("550007631")
+Objective_Marker.Bazooka_Objective = RegisterReflectionId("550007630")
+Troop.Tgrunt0013 = RegisterReflectionId("550007551")
+Troop.Tgrunt0014 = RegisterReflectionId("550007550")
+Troop.Tgrunt0020 = RegisterReflectionId("550007534")
+Troop.Tgrunt0019 = RegisterReflectionId("550007533")
+Waypoint.Entity0237 = RegisterReflectionId("550007529")
+Waypoint.Entity0234 = RegisterReflectionId("550007526")
+Troop.WFmissile0001 = RegisterReflectionId("550007506")
+Troop.WFmissile0002 = RegisterReflectionId("550007504")
+Unit_Group.GroupWFBazooka02 = RegisterReflectionId("550007499")
+Unit_Group.GroupWFBazooka01 = RegisterReflectionId("550007497")
+Troop.WFgrunt0010 = RegisterReflectionId("550007485")
+Troop.WFgrunt0009 = RegisterReflectionId("550007484")
+Troop.WFgrunt0008 = RegisterReflectionId("550007483")
+Troop.WFgrunt0007 = RegisterReflectionId("550007482")
+Troop.Tgrunt0018 = RegisterReflectionId("550003793")
+Troop.Tgrunt0017 = RegisterReflectionId("550003382")
+Troop.Tmissile0002 = RegisterReflectionId("550007456")
+Troop.Tmissile0001 = RegisterReflectionId("550007455")
+Waypoint.Entity0227 = RegisterReflectionId("550007398")
+Waypoint.Entity0226 = RegisterReflectionId("550007397")
+Troop.WFgruntGunship0010 = RegisterReflectionId("550007393")
+Troop.WFgruntGunship0012 = RegisterReflectionId("550007392")
+Troop.WFgruntGunship0011 = RegisterReflectionId("550007391")
+Air_Vehicle.WFgunship0004 = RegisterReflectionId("550007389")
+Camera.Camera0001 = RegisterReflectionId("450001275")
+Troop.WFgruntHeavyTank0001 = RegisterReflectionId("550002955")
+Troop.WFgruntGunship0006 = RegisterReflectionId("550007336")
+Troop.WFgruntGunship0005 = RegisterReflectionId("550007335")
+Troop.WFgruntGunship0004 = RegisterReflectionId("550007334")
+Troop.WFgrunt0006 = RegisterReflectionId("550007369")
+Troop.WFgrunt0005 = RegisterReflectionId("550007368")
+Troop.WFgrunt0004 = RegisterReflectionId("550007367")
+Troop.WFgrunt0003 = RegisterReflectionId("550007366")
+Troop.WFbazooka0006 = RegisterReflectionId("550007370")
+Troop.WFgrunt0002 = RegisterReflectionId("550007365")
+Troop.WFgrunt0001 = RegisterReflectionId("550007364")
+Troop.WFbazooka0005 = RegisterReflectionId("550002949")
+Troop.WFbazooka0004 = RegisterReflectionId("550002951")
+Troop.WFbazooka0003 = RegisterReflectionId("550002948")
+Troop.WFbazooka0002 = RegisterReflectionId("550002950")
+Troop.WFbazooka0001 = RegisterReflectionId("450001876")
+Troop.TgruntHeavyTank0015 = RegisterReflectionId("550003159")
+Troop.TgruntGunship0001 = RegisterReflectionId("550007341")
+Map_Zone.Entity0003 = RegisterReflectionId("550007377")
+Map_Zone.Entity0002 = RegisterReflectionId("550007375")
+Map_Zone.Entity0001 = RegisterReflectionId("550007374")
+Map_Zone.Entity0000 = RegisterReflectionId("550007372")
+Ground_Vehicle.TheavyTank0001 = RegisterReflectionId("550002939")
+Ground_Vehicle.TheavyTank0002 = RegisterReflectionId("550002938")
+Ground_Vehicle.TheavyTank0003 = RegisterReflectionId("550002936")
+Ground_Vehicle.TlightTank0001 = RegisterReflectionId("550002934")
+Ground_Vehicle.TlightTank0004 = RegisterReflectionId("550002935")
+Ground_Vehicle.TlightTank0002 = RegisterReflectionId("550003801")
+Ground_Vehicle.WFheavyTank0001 = RegisterReflectionId("550002944")
+Ground_Vehicle.WFheavyTank0002 = RegisterReflectionId("550002945")
+Ground_Vehicle.WFheavyTank0003 = RegisterReflectionId("550002946")
+Air_Vehicle.WFgunship0002 = RegisterReflectionId("550007330")
+Air_Vehicle.Tgunship0001 = RegisterReflectionId("550007340")
+Waypoint.Waypoint0182 = RegisterReflectionId("550003727")
+Waypoint.Entity0180 = RegisterReflectionId("550003725")
+Waypoint.Entity0137 = RegisterReflectionId("550003642")
+Waypoint.Entity0132 = RegisterReflectionId("550003636")
+Waypoint.Entity0131 = RegisterReflectionId("550003635")
+Waypoint.Entity0128 = RegisterReflectionId("550003632")
+Waypoint.Entity0126 = RegisterReflectionId("550003630")
+Waypoint.Entity0090 = RegisterReflectionId("550003375")
+Waypoint.Entity0086 = RegisterReflectionId("550003371")
+Waypoint.Entity0068 = RegisterReflectionId("550003352")
+Waypoint.Entity0062 = RegisterReflectionId("550003346")
+Unit_Group.GroupWFHeavyTanks = RegisterReflectionId("550003334")
+Troop.WFgruntHeavyTank0009 = RegisterReflectionId("550003169")
+Troop.WFgruntHeavyTank0008 = RegisterReflectionId("550003168")
+Troop.WFgruntHeavyTank0006 = RegisterReflectionId("550003167")
+Troop.WFgruntHeavyTank0005 = RegisterReflectionId("550003166")
+Troop.WFgruntHeavyTank0003 = RegisterReflectionId("550003165")
+Troop.WFgruntHeavyTank0002 = RegisterReflectionId("550003164")
+Troop.TgruntHeavyTank0014 = RegisterReflectionId("550003158")
+Troop.TgruntHeavyTank0011 = RegisterReflectionId("550003157")
+Troop.TgruntHeavyTank0010 = RegisterReflectionId("550003156")
+Troop.TgruntHeavyTank0003 = RegisterReflectionId("550003153")
+Troop.TgruntHeavyTank0002 = RegisterReflectionId("550003152")
+Troop.TgruntLightTank0008 = RegisterReflectionId("550003150")
+Troop.TgruntLightTank0004 = RegisterReflectionId("550003146")
+Troop.TgruntHeavyTank0013 = RegisterReflectionId("550002970")
+Troop.TgruntHeavyTank0009 = RegisterReflectionId("550002969")
+Troop.TgruntHeavyTank0001 = RegisterReflectionId("550002967")
+Troop.TgruntLightTank0007 = RegisterReflectionId("550002966")
+Troop.TgruntLightTank0003 = RegisterReflectionId("550002964")
+Troop.WFgruntHeavyTank0007 = RegisterReflectionId("550002957")
+Troop.WFgruntHeavyTank0004 = RegisterReflectionId("550002956")
+Waypoint.Entity0020 = RegisterReflectionId("550003297")
+Waypoint.Entity0024 = RegisterReflectionId("550003301")
+Waypoint.Entity0026 = RegisterReflectionId("550003303")
+Waypoint.Entity0030 = RegisterReflectionId("550003307")
+Waypoint.Entity0035 = RegisterReflectionId("550003312")
+Waypoint.Entity0037 = RegisterReflectionId("550003314")
+Waypoint.Entity0041 = RegisterReflectionId("550003318")
+Waypoint.Entity0048 = RegisterReflectionId("550003325")
+Waypoint.Entity0051 = RegisterReflectionId("550003328")
+Waypoint.Entity0095 = RegisterReflectionId("550003388")
+Waypoint.Entity0096 = RegisterReflectionId("550003389")
+Waypoint.Entity0102 = RegisterReflectionId("550003395")
+Waypoint.Entity0109 = RegisterReflectionId("550003402")
+Waypoint.Entity0117 = RegisterReflectionId("550003410")
+Waypoint.Entity0121 = RegisterReflectionId("550003414")
+Waypoint.Entity0123 = RegisterReflectionId("550003416")
+Troop.Tgrunt0001 = RegisterReflectionId("550003645")
+Troop.Tgrunt0002 = RegisterReflectionId("550003646")
+Waypoint.Entity0139 = RegisterReflectionId("550003684")
+Waypoint.Entity0144 = RegisterReflectionId("550003689")
+Waypoint.Entity0146 = RegisterReflectionId("550003691")
+Troop.Tgrunt0003 = RegisterReflectionId("550003778")
+Troop.Tgrunt0004 = RegisterReflectionId("550003779")
+Troop.TgruntLightTank0011 = RegisterReflectionId("550003802")
+Troop.TgruntLightTank0012 = RegisterReflectionId("550003803")
+Troop.Tmissile0004 = RegisterReflectionId("550007459")
+Troop.Tmissile0003 = RegisterReflectionId("550007460")
+Troop.Tgrunt0007 = RegisterReflectionId("550007488")
+Troop.Tgrunt0008 = RegisterReflectionId("550007490")
+Troop.Tgrunt0009 = RegisterReflectionId("550007491")
+Troop.Tgrunt0010 = RegisterReflectionId("550007492")
+Waypoint.Entity0240 = RegisterReflectionId("550007553")
+Waypoint.Entity0242 = RegisterReflectionId("550007555")
+Waypoint.Entity0247 = RegisterReflectionId("550007560")
+Waypoint.Entity0249 = RegisterReflectionId("550007562")
+Waypoint.Entity0254 = RegisterReflectionId("550007567")
+Waypoint.Entity0256 = RegisterReflectionId("550007569")
+Waypoint.Entity0261 = RegisterReflectionId("550007574")
+Waypoint.Entity0275 = RegisterReflectionId("550007588")
+Waypoint.Entity0287 = RegisterReflectionId("550007600")
+Waypoint.Entity0289 = RegisterReflectionId("550007602")
+Troop.Tgrunt0005 = RegisterReflectionId("550007627")
+Troop.Tgrunt0006 = RegisterReflectionId("550007628")
+SpriteID.CO_Herman_Happy = RegisterReflectionId("550010307")
+SpriteID.CO_Herman_Sad = RegisterReflectionId("550010309")
+SpriteID.CO_Nova_Happy = RegisterReflectionId("550010310")
+SpriteID.CO_Nova_Sad = RegisterReflectionId("550010311")
+Map_Zone.Entity0004 = RegisterReflectionId("550013844")
+Map_Zone.Entity0005 = RegisterReflectionId("550013846")
+Map_Zone.Entity0006 = RegisterReflectionId("550013848")
+Map_Zone.Entity0007 = RegisterReflectionId("550013850")
+Troop.WFgruntHeavyTank0024 = RegisterReflectionId("550013950")
+Troop.WFgruntHeavyTank0023 = RegisterReflectionId("550013951")
+Troop.WFgruntHeavyTank0022 = RegisterReflectionId("550013952")
+Ground_Vehicle.WFheavyTank0008 = RegisterReflectionId("550013953")
+Troop.WFgrunt0012 = RegisterReflectionId("550013958")
+Troop.WFgrunt0011 = RegisterReflectionId("550013960")
+Troop.WFmissile0004 = RegisterReflectionId("550013989")
+Troop.WFmissile0005 = RegisterReflectionId("550013990")
+Waypoint.Entity0317 = RegisterReflectionId("550014008")
+Camera.Cutscene0001 = RegisterReflectionId("550014015")
+Objective.Heavy_Tanks_0 = RegisterReflectionId("550014164")
+Objective.Heavy_Tanks_1 = RegisterReflectionId("550014166")
+Objective.Heavy_Tanks_2 = RegisterReflectionId("550014167")
+Objective.Heavy_Tanks_3 = RegisterReflectionId("550014168")
+Objective.Heavy_Tanks_4 = RegisterReflectionId("550014169")
+Objective.Heavy_Tanks_5 = RegisterReflectionId("550014170")
+Objective.Heavy_Tanks_6 = RegisterReflectionId("550014171")
+Objective.Heavy_Tanks_7 = RegisterReflectionId("550014172")
+Objective.Heavy_Tanks_8 = RegisterReflectionId("550014173")
+Objective.Forest_0 = RegisterReflectionId("550014175")
+Objective.Forest_1 = RegisterReflectionId("550014177")
+Objective.Forest_2 = RegisterReflectionId("550014179")
+Objective.Forest_3 = RegisterReflectionId("550014180")
+Objective.Forest_4 = RegisterReflectionId("550014181")
+Objective.Forest_5 = RegisterReflectionId("550014183")
+Objective.Forest_6 = RegisterReflectionId("550014184")
+Objective.Fortress_0 = RegisterReflectionId("550014185")
+Objective.Fortress_1 = RegisterReflectionId("550014187")
+Objective.Fortress_2 = RegisterReflectionId("550014188")
+Objective.Fortress_3 = RegisterReflectionId("550014189")
+Objective.Fortress_4 = RegisterReflectionId("550014190")
+Objective.Fortress_5 = RegisterReflectionId("550014191")
+Objective.Fortress_6 = RegisterReflectionId("550014192")
+Objective.Fortress_7 = RegisterReflectionId("550014193")
+Objective.Fortress_8 = RegisterReflectionId("550014194")
+Objective.Fortress_9 = RegisterReflectionId("550014195")
+Objective.Fortress_10 = RegisterReflectionId("550014196")
+Objective_Marker.TankObjective0001 = RegisterReflectionId("550014249")
+Objective_Marker.TankObjective0003 = RegisterReflectionId("550014251")
+Objective_Marker.TankObjective0002 = RegisterReflectionId("550014252")
+Objective_Marker.TankObjective0004 = RegisterReflectionId("550014253")
+Objective_Marker.TankObjective0005 = RegisterReflectionId("550014254")
+Objective_Marker.TankObjective0006 = RegisterReflectionId("550014255")
+Objective_Marker.TankObjective0007 = RegisterReflectionId("550014256")
+Objective_Marker.TankObjective0008 = RegisterReflectionId("550014257")

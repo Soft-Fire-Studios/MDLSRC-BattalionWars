@@ -1,0 +1,13 @@
+function Purge_Startup(owner)
+  Despawn(Air_Vehicle.LegionBomber01)
+  Despawn(Air_Vehicle.LegionBomber02)
+  Despawn(Troop.LegionAAVet01)
+  Despawn(Troop.LegionAAVet02)
+  Despawn(Troop.LegionAAVet03)
+  Despawn(Troop.LegionAAVet04)
+  Despawn(Troop.LegionAAVet05)
+  Despawn(Troop.ILbazooka04)
+  Despawn(Troop.ILmortar01)
+  Despawn(Troop.ILbazooka05)
+  Despawn(Troop.ILmortar05)
+end

@@ -1,0 +1,8 @@
+newmtl C1SNICEWATERFALL_mat0
+map_kd c1ttsnref.png
+newmtl C1SNICEWATERFALL_mat1
+map_kd c1ttsn.png
+newmtl C1SNICEWATERFALL_mat2
+map_kd c1sniceberg.png
+newmtl C1SNICEWATERFALL_mat3
+map_kd c1snicecliff.png

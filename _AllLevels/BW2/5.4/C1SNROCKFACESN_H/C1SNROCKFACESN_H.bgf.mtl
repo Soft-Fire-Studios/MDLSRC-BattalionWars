@@ -1,0 +1,8 @@
+newmtl C1SNROCKFACESN_mat0
+map_kd c1sndarkrocksn.png
+newmtl C1SNROCKFACESN_mat1
+map_kd c1ttdarkrock01.png
+newmtl C1SNROCKFACESN_mat2
+map_kd c1ttsn.png
+newmtl FERN01_mat0
+map_kd c1snfernsn.png

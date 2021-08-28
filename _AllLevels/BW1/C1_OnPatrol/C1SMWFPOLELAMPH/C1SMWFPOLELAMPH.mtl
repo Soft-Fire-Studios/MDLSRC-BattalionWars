@@ -1,0 +1,10 @@
+newmtl Node 0_mat0
+map_kd c1smtnkcros1.png
+newmtl Node 0_mat1
+map_kd c2smbridge1.png
+newmtl Node 0_mat2
+map_kd c1smradio_a.png
+newmtl Node 0_mat3
+map_kd c4smlant1.png
+newmtl Node 0_mat4
+map_kd c1smmetalbars.png

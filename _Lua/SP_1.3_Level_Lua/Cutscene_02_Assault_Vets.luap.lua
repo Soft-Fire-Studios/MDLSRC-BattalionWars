@@ -1,0 +1,51 @@
+function Cutscene_02_Assault_Vets(owner)
+  Despawn(Troop.CS_AI_Grunt_1)
+  Despawn(Troop.CS_AI_Grunt_2)
+  Despawn(Air_Vehicle.CS_Air_Transport_1)
+  Despawn(Air_Vehicle.CS_Air_Transport_2)
+  repeat
+    EndFrame()
+  until assaultshot == 1
+  cutkiller = owner
+  Spawn(Air_Vehicle.CS_Air_Transport_1)
+  Spawn(Air_Vehicle.CS_Air_Transport_2)
+  SetCamera(Camera.Assault_Camera_2)
+  CameraSetFOV(Camera.Assault_Camera_2, 60, constant.IMMEDIATE, 25, constant.NO_WAIT)
+  CameraSetFOV(Camera.Assault_Camera_1, 40, constant.SMOOTH, 1, constant.NO_WAIT)
+  DebugOut("Beginning Assault Vet Shot 1")
+  CameraFade(constant.FADE_IN, constant.WAIT, 1)
+  cutscene = 0
+  PhoneMessage(31, constant.ID_NONE, 3, 6, SpriteID.CO_SE_Leiqo_Happy, constant.PLAYER_ONE)
+  WaitFor(2)
+  GoToArea(Troop.SE_POW4, -55, 780, 2)
+  GoToArea(Troop.SE_POW3, -53, 770, 2)
+  GoToArea(Troop.SE_POW2, -50, 770, 2)
+  GoToArea(Troop.SE_POW1, -42, 780, 2)
+  WaitFor(5)
+  LandAirUnit(Air_Vehicle.CS_Air_Transport_1, -25, 890, constant.ORDER_FORCED, 1, 5, 180)
+  PhoneMessage(32, constant.ID_NONE, constant.ARMY_ANGLO, 6, SpriteID.CO_AI_Windsor_Sad, constant.PLAYER_ONE)
+  WaitFor(3)
+  Despawn(Troop.SE_POW1)
+  Despawn(Troop.SE_POW2)
+  Despawn(Troop.SE_POW3)
+  Despawn(Troop.SE_POW4)
+  LandAirUnit(Air_Vehicle.CS_Air_Transport_2, -135, 875, constant.ORDER_FORCED, 1, 5, 180)
+  repeat
+    EndFrame()
+  until 2 > NumPassengersInUnit(Air_Vehicle.CS_Air_Transport_1)
+  GoToArea(Troop.CS_Baz_4, -55, 780, 2)
+  GoToArea(Troop.CS_Baz_3, -50, 780, 2)
+  GoToArea(Troop.CS_Baz_2, -45, 780, 2)
+  GoToArea(Troop.CS_Baz_1, -40, 780, 2)
+  WaitFor(4.8)
+  EnableWeapon(Troop.CS_Baz_1, 0)
+  EnableWeapon(Troop.CS_Baz_2, 0)
+  EnableWeapon(Troop.CS_Baz_3, 0)
+  EnableWeapon(Troop.CS_Baz_4, 0)
+  repeat
+    EndFrame()
+  until GetNumItemsInMessageQueue(constant.PLAYER_ONE) == 0
+  WaitFor(0.5)
+  CameraFade(constant.FADE_OUT, constant.WAIT, 1)
+  cutscene = 1
+end

@@ -1,0 +1,63 @@
+	0.000000   -0.000000    0.000000    1.570796   -0.000000    0.000000
+	X			Y			Z			R1			R2			R3
+
+Most of the time, you just need to edit R1. Here's what you put for each wheel bone:
+
+	Wheel SMD 1 - 0.000000
+	Wheel SMD 2 - -2.094392
+	Wheel SMD 3 - 2.094392
+	Wheel SMD 4 - 0.000000
+
+Add this weightlist to your QC:
+
+	$weightlist "wheels_left" {
+		"lWheel1" 1
+		"lWheel2" 1
+		"lWheel3" 1
+		"lWheel4" 1
+	}
+
+	$weightlist "wheels_right" {
+		"rWheel1" 1
+		"rWheel2" 1
+		"rWheel3" 1
+		"rWheel4" 1
+	}
+
+Finally, the wheel animation code:
+
+	$Animation lWheels_1 "pp/lWheels_1.smd" subtract "subtract_" 0 frames 0 0
+	$Animation lWheels_2 "pp/lWheels_2.smd" subtract "subtract_" 0 frames 0 0
+	$Animation lWheels_3 "pp/lWheels_3.smd" subtract "subtract_" 0 frames 0 0
+	$Animation lWheels_4 "pp/lWheels_4.smd" subtract "subtract_" 0 frames 0 0
+
+	$Sequence "lWheels" {
+		"lWheels_1"
+		"lWheels_2"
+		"lWheels_3"
+		"lWheels_4"
+		fps 30
+		delta
+		blendwidth 4
+		blend "lWheels" -180 180
+		autoplay
+		weightlist "wheels_left"
+	}
+
+	$Animation rWheels_1 "pp/rWheels_1.smd" subtract "subtract_" 0 frames 0 0
+	$Animation rWheels_2 "pp/rWheels_2.smd" subtract "subtract_" 0 frames 0 0
+	$Animation rWheels_3 "pp/rWheels_3.smd" subtract "subtract_" 0 frames 0 0
+	$Animation rWheels_4 "pp/rWheels_4.smd" subtract "subtract_" 0 frames 0 0
+
+	$Sequence "rWheels" {
+		"rWheels_1"
+		"rWheels_2"
+		"rWheels_3"
+		"rWheels_4"
+		fps 30
+		delta
+		blendwidth 4
+		blend "rWheels" -180 180
+		autoplay
+		weightlist "wheels_right"
+	}

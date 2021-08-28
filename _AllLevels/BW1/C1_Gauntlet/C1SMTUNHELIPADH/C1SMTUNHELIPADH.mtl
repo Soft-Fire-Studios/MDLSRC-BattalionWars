@@ -1,0 +1,22 @@
+newmtl Node 0_mat0
+map_kd vtltnk_main.png
+newmtl Node 0_mat1
+map_kd c1chainlink1.png
+newmtl Node 0_mat2
+map_kd helipadtun.png
+newmtl Node 2_mat0
+map_kd c1chainlink1.png
+newmtl Node 3_mat0
+map_kd c1chainlink1.png
+newmtl Node 4_mat0
+map_kd c1chainlink1.png
+newmtl Node 5_mat0
+map_kd c1chainlink1.png
+newmtl Node 6_mat0
+map_kd c1chainlink1.png
+newmtl Node 7_mat0
+map_kd c1chainlink1.png
+newmtl Node 8_mat0
+map_kd c1chainlink1.png
+newmtl Node 9_mat0
+map_kd c1chainlink1.png

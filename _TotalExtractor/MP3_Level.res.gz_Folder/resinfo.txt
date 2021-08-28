@@ -1,0 +1,4 @@
+{
+    "Game": "Battalion Wars 2",
+    "Level name": "MP3_Level"
+}

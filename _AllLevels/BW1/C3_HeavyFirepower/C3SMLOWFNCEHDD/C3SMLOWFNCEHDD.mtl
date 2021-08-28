@@ -1,0 +1,22 @@
+newmtl Node 0_mat0
+map_kd c3smbamboofence.png
+newmtl Node 0_mat1
+map_kd c3snvegetation01.png
+newmtl Node 1_mat0
+map_kd c1smwdfence.png
+newmtl Node 2_mat0
+map_kd c3smbamboofence.png
+newmtl Node 2_mat1
+map_kd c2smrope.png
+newmtl Node 3_mat0
+map_kd c3smbamboofence.png
+newmtl Node 3_mat1
+map_kd c2smrope.png
+newmtl Node 4_mat0
+map_kd c3smbamboofence.png
+newmtl Node 4_mat1
+map_kd c2smrope.png
+newmtl Node 5_mat0
+map_kd c3smbamboofence.png
+newmtl Node 5_mat1
+map_kd c2smrope.png

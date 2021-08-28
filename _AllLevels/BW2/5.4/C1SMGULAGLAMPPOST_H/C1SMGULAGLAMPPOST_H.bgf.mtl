@@ -1,0 +1,10 @@
+newmtl C1SMGULAGLAMPPOST_mat0
+map_kd c1towerwood.png
+newmtl C1SMGULAGLAMPPOST_mat1
+map_kd vxhtra_main.png
+newmtl C1SMGULAGLAMPPOST_mat2
+map_kd c1smradio_a.png
+newmtl LAMP_mat0
+map_kd vxhtra_main.png
+newmtl LAMP_mat1
+map_kd vtart_main.png

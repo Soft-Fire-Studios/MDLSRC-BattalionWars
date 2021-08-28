@@ -1,0 +1,2 @@
+function Z_EMPTY_Sneak_Attack_ScoreScreen_Variables(owner)
+end
